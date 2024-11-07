@@ -1,0 +1,162 @@
+{
+    "49ers": {
+        "fp_abbreviation": "SF",
+        "pfr_abbreviation": "SFO",
+        "url_segment": "/nfl/teams/san-francisco-49ers.php"
+    },
+    "Bears": {
+        "fp_abbreviation": "CHI",
+        "pfr_abbreviation": "CHI",
+        "url_segment": "/nfl/teams/chicago-bears.php"
+    },
+    "Bengals": {
+        "fp_abbreviation": "CIN",
+        "pfr_abbreviation": "CIN",
+        "url_segment": "/nfl/teams/cincinnati-bengals.php"
+    },
+    "Bills": {
+        "fp_abbreviation": "BUF",
+        "pfr_abbreviation": "BUF",
+        "url_segment": "/nfl/teams/buffalo-bills.php"
+    },
+    "Broncos": {
+        "fp_abbreviation": "DEN",
+        "pfr_abbreviation": "DEN",
+        "url_segment": "/nfl/teams/denver-broncos.php"
+    },
+    "Browns": {
+        "fp_abbreviation": "CLE",
+        "pfr_abbreviation": "CLE",
+        "url_segment": "/nfl/teams/cleveland-browns.php"
+    },
+    "Buccaneers": {
+        "fp_abbreviation": "TB",
+        "pfr_abbreviation": "TAM",
+        "url_segment": "/nfl/teams/tampa-bay-buccaneers.php"
+    },
+    "Cardinals": {
+        "fp_abbreviation": "ARI",
+        "pfr_abbreviation": "CRD",
+        "url_segment": "/nfl/teams/arizona-cardinals.php"
+    },
+    "Chargers": {
+        "fp_abbreviation": "LAC",
+        "pfr_abbreviation": "SDG",
+        "url_segment": "/nfl/teams/los-angeles-chargers.php"
+    },
+    "Chiefs": {
+        "fp_abbreviation": "KC",
+        "pfr_abbreviation": "KAN",
+        "url_segment": "/nfl/teams/kansas-city-chiefs.php"
+    },
+    "Colts": {
+        "fp_abbreviation": "IND",
+        "pfr_abbreviation": "CLT",
+        "url_segment": "/nfl/teams/indianapolis-colts.php"
+    },
+    "Commanders": {
+        "fp_abbreviation": "WAS",
+        "pfr_abbreviation": "WAS",
+        "url_segment": "/nfl/teams/washington-commanders.php"
+    },
+    "Cowboys": {
+        "fp_abbreviation": "DAL",
+        "pfr_abbreviation": "DAL",
+        "url_segment": "/nfl/teams/dallas-cowboys.php"
+    },
+    "Dolphins": {
+        "fp_abbreviation": "MIA",
+        "pfr_abbreviation": "MIA",
+        "url_segment": "/nfl/teams/miami-dolphins.php"
+    },
+    "Eagles": {
+        "fp_abbreviation": "PHI",
+        "pfr_abbreviation": "PHI",
+        "url_segment": "/nfl/teams/philadelphia-eagles.php"
+    },
+    "Falcons": {
+        "fp_abbreviation": "ATL",
+        "pfr_abbreviation": "ATL",
+        "url_segment": "/nfl/teams/atlanta-falcons.php"
+    },
+    "Giants": {
+        "fp_abbreviation": "NYG",
+        "pfr_abbreviation": "NYG",
+        "url_segment": "/nfl/teams/new-york-giants.php"
+    },
+    "Jaguars": {
+        "fp_abbreviation": "JAC",
+        "pfr_abbreviation": "JAX",
+        "url_segment": "/nfl/teams/jacksonville-jaguars.php"
+    },
+    "Jets": {
+        "fp_abbreviation": "NYJ",
+        "pfr_abbreviation": "NYJ",
+        "url_segment": "/nfl/teams/new-york-jets.php"
+    },
+    "Lions": {
+        "fp_abbreviation": "DET",
+        "pfr_abbreviation": "DET",
+        "url_segment": "/nfl/teams/detroit-lions.php"
+    },
+    "Packers": {
+        "fp_abbreviation": "GB",
+        "pfr_abbreviation": "GNB",
+        "url_segment": "/nfl/teams/green-bay-packers.php"
+    },
+    "Panthers": {
+        "fp_abbreviation": "CAR",
+        "pfr_abbreviation": "CAR",
+        "url_segment": "/nfl/teams/carolina-panthers.php"
+    },
+    "Patriots": {
+        "fp_abbreviation": "NE",
+        "pfr_abbreviation": "NWE",
+        "url_segment": "/nfl/teams/new-england-patriots.php"
+    },
+    "Raiders": {
+        "fp_abbreviation": "LV",
+        "pfr_abbreviation": "RAI",
+        "url_segment": "/nfl/teams/las-vegas-raiders.php"
+    },
+    "Rams": {
+        "fp_abbreviation": "LAR",
+        "pfr_abbreviation": "RAM",
+        "url_segment": "/nfl/teams/los-angeles-rams.php"
+    },
+    "Ravens": {
+        "fp_abbreviation": "BAL",
+        "pfr_abbreviation": "RAV",
+        "url_segment": "/nfl/teams/baltimore-ravens.php"
+    },
+    "Saints": {
+        "fp_abbreviation": "NO",
+        "pfr_abbreviation": "NOR",
+        "url_segment": "/nfl/teams/new-orleans-saints.php"
+    },
+    "Seahawks": {
+        "fp_abbreviation": "SEA",
+        "pfr_abbreviation": "SEA",
+        "url_segment": "/nfl/teams/seattle-seahawks.php"
+    },
+    "Steelers": {
+        "fp_abbreviation": "PIT",
+        "pfr_abbreviation": "PIT",
+        "url_segment": "/nfl/teams/pittsburgh-steelers.php"
+    },
+    "Texans": {
+        "fp_abbreviation": "HOU",
+        "pfr_abbreviation": "HTX",
+        "url_segment": "/nfl/teams/houston-texans.php"
+    },
+    "Titans": {
+        "fp_abbreviation": "TEN",
+        "pfr_abbreviation": "OTI",
+        "url_segment": "/nfl/teams/tennessee-titans.php"
+    },
+    "Vikings": {
+        "fp_abbreviation": "MIN",
+        "pfr_abbreviation": "MIN",
+        "url_segment": "/nfl/teams/minnesota-vikings.php"
+    }
+}

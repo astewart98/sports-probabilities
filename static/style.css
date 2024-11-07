@@ -1,0 +1,492 @@
+body, button {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    overflow-x: auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.selection-container {
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 1s ease-out;
+    text-align: left;
+}
+
+.selection-container.expanded {
+    max-height: 1000px; 
+}
+
+.container,
+.container1,
+.form-container,
+.button-container {
+    overflow: auto; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s ease-in; 
+}
+
+.wrapper.visible {
+    opacity: 1;
+}
+
+.wrapper.fade-out {
+    opacity: 0;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+input.pristine {
+    border: 2px solid #ccc;  
+    background-color: #fff;  
+    color: black;            
+}
+
+input:not(.pristine):invalid {
+    border: 2px solid red;   
+    background-color: #fdd;  
+    color: red;              
+}
+
+input:not(.pristine):invalid:focus {
+    outline: none;
+    box-shadow: 0 0 5px red;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+    width: auto; 
+    max-width: none; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block; 
+    text-align: center; 
+}
+
+.loadingScreen {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInAnimation ease .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 0; 
+    }
+}
+
+.loadingScreen img {
+    max-width: 75px;  
+    max-height: 73px; 
+    clip-path: inset(5px 25px 10px 20px);
+    margin-left: -13px;
+    margin-right: -25px;
+    margin-bottom: -10px;
+}
+
+.loadingScreen h1 {
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+}
+
+#submitLoadingScreen {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+    animation: fadeInAnimation ease .5s;
+    animation-fill-mode: forwards;
+}
+
+.loading-content {
+    text-align: center;
+}
+
+#submitLoadingScreen h1 {
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    margin-bottom: 10px; 
+}
+
+#submitLoadingScreen p {
+    font-size: 24px; 
+    margin: 0; 
+}
+#submitLoadingScreen img {
+    max-width: 75px;  
+    max-height: 73px; 
+    clip-path: inset(5px 25px 10px 20px);
+    margin-left: -13px;
+    margin-right: -25px;
+    margin-bottom: -10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+p1{
+    font-style: italic;
+}
+
+p2 {
+    font-size: x-small;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[list] {
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+    width: 100%;
+}
+
+button:hover,
+button[type="submit"]:not(.disabled):hover {
+    background-color: #0169d8;
+}
+
+button:active {
+    background-color: #88cef3; 
+    transition: background-color 0.5s; 
+}
+
+button.click-effect {
+    background-color: #007BFF; 
+    transform: scale(0.95); 
+}
+
+button[type="submit"] {
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"].disabled {
+    background-color: #6c757d; 
+    cursor: not-allowed;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.button-container {
+    width: 100%; 
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding-top: 20px; 
+}
+
+#toggle-advanced {
+    border: none;
+    color: grey;
+    background-color: #f7f7f7;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: x-small;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: auto;
+    display: inline-block;
+}
+
+#advanced-search.hidden {
+    display: none;
+}
+
+#advanced-search {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+#toggle-advanced:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#playerName {
+    text-transform: capitalize;
+}
+
+.radio-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.radio-container {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-label {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: grey;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.radio-label-nfl {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: grey;
+    transition: background-color 0.3s, color 0.3s;
+    align-content: center;
+}
+
+.radio-label-mlb {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: grey;
+    transition: background-color 0.3s, color 0.3s;
+    align-content: center;
+}
+
+.radio-label:hover,
+.radio-label-nfl:hover,
+.radio-label-mlb:hover {
+    background-color: grey;
+    color: white;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + .radio-label,
+input[type="radio"]:checked + .radio-label-nfl,
+input[type="radio"]:checked + .radio-label-mlb {
+    color: black;
+    background-color: #007bffb3;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.player-image {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.team-image {
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-container {
+    max-width: 500px;
+    text-align: left;
+}
+
+.result-group {
+    margin-bottom: 20px;
+}
+
+.result-group h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.results-row {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    width: auto; 
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: auto;
+    margin: 0;
+}
+
+.result-box {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.result-box-na {
+    padding: 32.5px;
+    border-bottom: 1px solid #ddd;
+    background: repeating-linear-gradient(
+        45deg,
+        #1d1d1d,
+        #1d1d1d 35px,
+        #424242 35px,
+        #424242 70px
+    );
+    background-attachment: fixed; 
+    background-position: 0 0;
+    width: 100%;
+}
+
+.result-box p {
+    margin: 0;
+    text-align: center;
+}
+
+.lifted {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lifted-na {
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container button {
+    margin: 10px;
+}

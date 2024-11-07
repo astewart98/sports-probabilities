@@ -1,0 +1,122 @@
+{
+    "Angels": {
+        "abbreviation": "LAA",
+        "url_segment": "/mlb/teams/los-angeles-angels.php"
+    },
+    "Astros": {
+        "abbreviation": "HOU",
+        "url_segment": "/mlb/teams/houston-astros.php"
+    },
+    "Athletics": {
+        "abbreviation": "OAK",
+        "url_segment": "/mlb/teams/oakland-athletics.php"
+    },
+    "Blue Jays": {
+        "abbreviation": "TOR",
+        "url_segment": "/mlb/teams/toronto-blue-jays.php"
+    },
+    "Braves": {
+        "abbreviation": "ATL",
+        "url_segment": "/mlb/teams/atlanta-braves.php"
+    },
+    "Brewers": {
+        "abbreviation": "MIL",
+        "url_segment": "/mlb/teams/milwaukee-brewers.php"
+    },
+    "Cardinals": {
+        "abbreviation": "STL",
+        "url_segment": "/mlb/teams/st-louis-cardinals.php"
+    },
+    "Cubs": {
+        "abbreviation": "CHC",
+        "url_segment": "/mlb/teams/chicago-cubs.php"
+    },
+    "Diamondbacks": {
+        "abbreviation": "ARI",
+        "url_segment": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    "Dodgers": {
+        "abbreviation": "LAD",
+        "url_segment": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    "Giants": {
+        "abbreviation": "SFG",
+        "url_segment": "/mlb/teams/san-francisco-giants.php"
+    },
+    "Guardians": {
+        "abbreviation": "CLE",
+        "url_segment": "/mlb/teams/cleveland-guardians.php"
+    },
+    "Mariners": {
+        "abbreviation": "SEA",
+        "url_segment": "/mlb/teams/seattle-mariners.php"
+    },
+    "Marlins": {
+        "abbreviation": "MIA",
+        "url_segment": "/mlb/teams/miami-marlins.php"
+    },
+    "Mets": {
+        "abbreviation": "NYM",
+        "url_segment": "/mlb/teams/new-york-mets.php"
+    },
+    "Nationals": {
+        "abbreviation": "WSN",
+        "url_segment": "/mlb/teams/washington-nationals.php"
+    },
+    "Orioles": {
+        "abbreviation": "BAL",
+        "url_segment": "/mlb/teams/baltimore-orioles.php"
+    },
+    "Padres": {
+        "abbreviation": "SDP",
+        "url_segment": "/mlb/teams/san-diego-padres.php"
+    },
+    "Phillies": {
+        "abbreviation": "PHI",
+        "url_segment": "/mlb/teams/philadelphia-phillies.php"
+    },
+    "Pirates": {
+        "abbreviation": "PIT",
+        "url_segment": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    "Rangers": {
+        "abbreviation": "TEX",
+        "url_segment": "/mlb/teams/texas-rangers.php"
+    },
+    "Rays": {
+        "abbreviation": "TBR",
+        "url_segment": "/mlb/teams/tampa-bay-rays.php"
+    },
+    "Red Sox": {
+        "abbreviation": "BOS",
+        "url_segment": "/mlb/teams/boston-red-sox.php"
+    },
+    "Reds": {
+        "abbreviation": "CIN",
+        "url_segment": "/mlb/teams/cincinnati-reds.php"
+    },
+    "Rockies": {
+        "abbreviation": "COL",
+        "url_segment": "/mlb/teams/colorado-rockies.php"
+    },
+    "Royals": {
+        "abbreviation": "KCR",
+        "url_segment": "/mlb/teams/kansas-city-royals.php"
+    },
+    "Tigers": {
+        "abbreviation": "DET",
+        "url_segment": "/mlb/teams/detroit-tigers.php"
+    },
+    "Twins": {
+        "abbreviation": "MIN",
+        "url_segment": "/mlb/teams/minnesota-twins.php"
+    },
+    "White Sox": {
+        "abbreviation": "CHW",
+        "url_segment": "/mlb/teams/chicago-white-sox.php"
+    },
+    "Yankees": {
+        "abbreviation": "NYY",
+        "url_segment": "/mlb/teams/new-york-yankees.php"
+    }
+}

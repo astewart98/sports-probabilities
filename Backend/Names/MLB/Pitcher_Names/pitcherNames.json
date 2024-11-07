@@ -1,0 +1,3214 @@
+[
+    {
+        "player_name": "Tarik Skubal",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Zack Wheeler",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Chris Sale",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Logan Gilbert",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Seth Lugo",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Shota Imanaga",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Corbin Burnes",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Emmanuel Clase",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Bryce Miller",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Dylan Cease",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Paul Skenes",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "George Kirby",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Framber Valdez",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Ronel Blanco",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Jack Flaherty",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Michael King",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Cole Ragans",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Sean Manaea",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Bailey Ober",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Hunter Greene",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Ryan Helsley",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Jose Berrios",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Aaron Nola",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Kirby Yates",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Tanner Bibee",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Sonny Gray",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Raisel Iglesias",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Reynaldo Lopez",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Logan Webb",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Max Fried",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Carlos Rodon",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Tanner Houck",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Pablo Lopez",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Luis Gil",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Tyler Glasnow",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Ryan Walker",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Nathan Eovaldi",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Jameson Taillon",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Tyler Holton",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Michael Wacha",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Josh Hader",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Nick Martinez",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Bryan Woo",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Erick Fedde",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Robert Suarez",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Luis Castillo",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Freddy Peralta",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Garrett Crochet",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Cristopher Sanchez",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Kevin Gausman",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Tanner Scott",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Hunter Brown",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Nestor Cortes Jr.",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Mason Miller",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Zach Eflin",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Zac Gallen",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Ranger Suarez",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Yusei Kikuchi",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Joe Ryan",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Tobias Myers",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Kutter Crawford",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Spencer Schwellenbach",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Gavin Stone",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Griffin Jax",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Brady Singer",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Jason Adam",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Justin Steele",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Luis Severino",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Hunter Gaddis",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Cade Smith",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Luke Weaver",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Bowden Francis",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Ben Lively",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Ryan Pepiot",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Luis L. Ortiz",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Jose Quintana",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Andres Munoz",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Blake Snell",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Carlos Estevez",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Jake Irvin",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Matt Strahm",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Nick Pivetta",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Grayson Rodriguez",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Zack Littell",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Tyler Anderson",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Brandon Pfaadt",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "David Peterson",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "JP Sears",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Colin Rea",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Mitch Keller",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Bryan Hudson",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Alex Vesia",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Edwin Diaz",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Jeff Hoffman",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Cole Sands",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Kenley Jansen",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Taj Bradley",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Kyle Finnegan",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Jose Butto",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Yoshinobu Yamamoto",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Clay Holmes",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Brayan Bello",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Ryne Nelson",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Michael Kopech",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Andrew Abbott",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Jhoan Duran",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Gerrit Cole",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Michael Lorenzen",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Derek Law",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "MacKenzie Gore",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Jason Foley",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Albert Suarez",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Daniel Hudson",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Tyson Miller",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Charlie Morton",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Ryan Yarbrough",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Tim Herrin",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Dean Kremer",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Jose Soriano",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Hector Neris",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Trevor Williams",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Yu Darvish",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Jared Jones",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Andrew Heaney",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Keegan Akin",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Justin Martinez",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Kevin Ginkel",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Kevin Kelly",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Tayler Scott",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Clarke Schmidt",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Jeremiah Estrada",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Evan Phillips",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Chad Green",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Jakob Junis",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Kyle Gibson",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Jared Koenig",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Blake Treinen",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Aaron Civale",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Reese Olson",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Joe Musgrove",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Chris Bassitt",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Nick Lodolo",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Alec Marsh",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Trevor Megill",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Orion Kerkering",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Lucas Erceg",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Cody Bradford",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Andre Pallante",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Porter Hodge",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Mitchell Parker",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "David Robertson",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "A.J. Puk",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Aroldis Chapman",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Justin Slaten",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Craig Kimbrel",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Joe Jimenez",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Javier Assad",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Alexis Diaz",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Shane Baz",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Pete Fairbanks",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Bryan Abreu",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Andrew Kittredge",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Dylan Lee",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Joel Payamps",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Lance Lynn",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Edwin Uceta",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Ryan Thompson",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Bailey Falter",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Ryan Weathers",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Simeon Woods Richardson",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Brant Hurter",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Will Vest",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Matt Waldron",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Tyler Rogers",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Reed Garrett",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "JoJo Romero",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Trent Thornton",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Osvaldo Bido",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Nick Sandlin",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Garrett Cleavinger",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Camilo Doval",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Buck Farmer",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Michael Tonkin",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Mitch Spence",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Jorge Alcala",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Kyle Harrison",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Cooper Criswell",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Pedro Avila",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Marcus Stroman",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Spencer Turnbull",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Miles Mikolas",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Hunter Strickland",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Spencer Arrighetti",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Bryse Wilson",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Shelby Miller",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Landon Knack",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Yennier Cano",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Frankie Montas",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "DJ Herz",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Dennis Santana",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Jose Urena",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Phil Maton",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Jose Alvarado",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Seranthony Dominguez",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Joey Estes",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Yimi Garcia",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Devin Williams",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Pierce Johnson",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Tyler Ferguson",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Merrill Kelly",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Bryan Hoeing",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Adrian Morejon",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Dylan Floro",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Joe Mantiply",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Yuki Matsui",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Jose Leclerc",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Eli Morgan",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Tylor Megill",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Hogan Harris",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Sean Hjelle",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "James McArthur",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Erik Miller",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Beau Brieske",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Ryne Stanek",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Austin Gomber",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "A.J. Minter",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "David Bednar",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Jon Gray",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Hayden Wesneski",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Paul Sewald",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Ryan Feltner",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Zack Kelly",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Jacob Webb",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Austin Voth",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Jonathan Cannon",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Jalen Beeks",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Carmen Mlodzinski",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Taylor Rogers",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Collin Snider",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Manuel Rodriguez",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Greg Weissert",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Brent Suter",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Jorge Lopez",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Tyler Alexander",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Grant Holmes",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Jake Cousins",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Dedniel Nunez",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "James Paxton",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Jacob Barnes",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Elvis Peguero",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "John King",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Victor Vodnik",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Hoby Milner",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Chris Martin",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Anthony Banda",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Calvin Faucher",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Anthony Bender",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "JT Chargois",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Robert Garcia",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Kyle Bradish",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Ben Brown",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Danny Coulombe",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Alex Faedo",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Jesse Chavez",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Ben Joyce",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Sean Guenther",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Jose Ruiz",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Daniel Lynch",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Jesus Tinoco",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Keider Montero",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Colin Holderman",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Jordan Hicks",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Spencer Bivens",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Tony Santillan",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Matthew Liberatore",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Mark Leiter Jr.",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Sam Long",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Ryan Pressly",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Tanner Banks",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Matthew Boyd",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Andrew Chafin",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "John Schreiber",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Luis Garcia",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Aaron Bummer",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Tommy Kahnle",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Fernando Cruz",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Joe Ross",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Hayden Birdsong",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Ryan Fernandez",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Sam Moll",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Michael McGreevy",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Paul Blackburn",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Seth Martinez",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Tyler Kinley",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Edward Cabrera",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Martin Perez",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Josh Winckowski",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Valente Bellozo",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Scott Barlow",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Drew Smyly",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Hans Crouse",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Kris Bubic",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Trevor Richards",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Keegan Thompson",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Adam Ottavino",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Michael Grove",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Nate Pearson",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Randy Rodriguez",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Rhett Lowder",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Tim Hill",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Michael Kelly",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Kyle Leahy",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Genesis Cabrera",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Danny Young",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Griffin Canning",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Chris Paddack",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Cody Poteet",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Yariel Rodriguez",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Andrew Nardi",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Cam Booser",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Kaleb Ort",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Max Scherzer",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Scott Alexander",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Hunter Stratton",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Huascar Brazoban",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Brenan Hanifee",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Declan Cronin",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Jack Kochanowicz",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Brennan Bernardino",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Sean Burke",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Emilio Pagan",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "T.J. McFarland",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Brent Honeywell Jr.",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Tayler Saucedo",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Robert Gasser",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Daysbel Hernandez",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Kyle Freeland",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Jesus Luzardo",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Matt Moore",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Aaron Ashby",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Robbie Ray",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Gavin Williams",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Cal Quantrill",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Jose A. Ferrer",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "John Means",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Matt Festa",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Bryan King",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "David Festa",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Colin Poche",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Shane Bieber",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Roansy Contreras",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Hunter Harvey",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Seth Halvorsen",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Drew Rasmussen",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Michel Otanez",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Wandy Peralta",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Xzavion Curry",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Luke Little",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Cole Irvin",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Enoli Paredes",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Ryan Brasier",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Carson Fulmer",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Jeffrey Springs",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Dane Dunning",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Gregory Soto",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Emerson Hancock",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Bryan Sammons",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Landen Roupp",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Burch Smith",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Bryce Jarvis",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Richard Lovelady",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Brendon Little",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Sean Reid-Foley",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Justin Verlander",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Erasmo Ramirez",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Angel Zerpa",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "River Ryan",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Eduard Bazardo",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Nick Anderson",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Erik Sabrowski",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Kyle Muller",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Fraser Ellard",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Cionel Perez",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Alek Manoah",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Sam Hentges",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Kyle Nicolas",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Luke Jackson",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "John McMillon",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Ryan Zeferjahn",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Cristian Javier",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Scott Blewett",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Joey Cantillo",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Garrett Whitlock",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Alex Cobb",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Michael Soroka",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Quinn Priester",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Victor Gonzalez",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Jacob Latz",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Angel Chivilli",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Austin Adams",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Ryan Burr",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Alek Jacob",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Ian Hamilton",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Erik Swanson",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Shawn Armstrong",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Casey Mize",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Joey Wentz",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Braxton Garrett",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Yency Almonte",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Christian Scott",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Caleb Ferguson",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Jake Diekman",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Chris Stratton",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Lucas Sims",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Ron Marinaccio",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Andrew Walters",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Cole Sulser",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Cade Povich",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Josh Sborz",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Jose Quijada",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Luis Peralta",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Justin Anderson",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Brooks Raley",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Jared Shuster",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Graham Ashcraft",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Hunter Bigge",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Jeff Criswell",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Kevin Herget",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Luis Guerrero",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Enyel De Los Santos",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Jhony Brito",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Drew Smith",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Troy Taylor",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Drew Thorpe",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Shawn Dubin",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Tristan Beck",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "J.T. Ginn",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Carlos Hernandez",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Gus Varland",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Steven Okert",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Jordan Romano",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Randy Vasquez",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Josh Staumont",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Carson Spiers",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Richard Fitts",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Rob Zastryzny",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Eduardo Rodriguez",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Chris Roycroft",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Zach Pop",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Matt Bowman",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Ronny Henriquez",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Logan Allen",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Prelander Berroa",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Brady Basso",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Jose Marte",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Sean Reynolds",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Carlos Carrasco",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Ben Casparius",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Bryan Baker",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Caleb Thielbar",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Vinny Nittoli",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Dillon Tate",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Adbert Alzolay",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Yilber Diaz",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Triston McKenzie",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Chris Flexen",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Jacob deGrom",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Kodai Senga",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Chase Anderson",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Mason Montgomery",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Clayton Kershaw",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Steven Cruz",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Nick Burdi",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Ethan Roberts",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Davis Martin",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Stephen Kolek",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Nabil Crismatt",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Patrick Sandoval",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Mike Baumann",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Austin Warren",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Tommy Nance",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "John Brebbia",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Kolby Allard",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Anthony Veneziano",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Nick Vespi",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Joe Kelly",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Eduardo Salazar",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Josh Winder",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Brusdar Graterol",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Justin Wilson",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "JB Bukauskas",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Daniel Duarte",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Peter Strzelecki",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Walter Pennington",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Blake Walston",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Josh Fleming",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Ty Madden",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Alex Young",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Tucker Davidson",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Josh Maciejewski",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Max Meyer",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Rafael Montero",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Jordan Lyles",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Patrick Corbin",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Connor Gillispie",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Jonathan Hernandez",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Luis Medina",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Jackson Jobe",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Brandon Williamson",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Tyler Phillips",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Daniel Robert",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Joel Kuhnel",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Mason Englert",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Kenta Maeda",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Dany Jimenez",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Colin Selby",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Jose Hernandez",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Nick Robertson",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Michael Petersen",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Jake Bird",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Dinelson Lamet",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Gerson Garabito",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Steven Matz",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Nick Mears",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Grant Holman",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Adam Cimber",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Jackson Rutledge",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Joe La Sorsa",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Jonathan Loaisiga",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Max Lazar",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Trevor McDonald",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Tanner Rainey",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Jimmy Herget",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Adam Oller",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Kyle Hurt",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "AJ Smith-Shawver",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Chase Shugart",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Mike Burrows",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Kyle Nelson",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Guillo Zuniga",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Justin Wrobleski",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Ricky Vanasco",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Brock Burke",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Yosver Zulueta",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Julian Aguiar",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Edgardo Henriquez",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Chad Kuhl",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Gabe Speier",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Abner Uribe",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Justin Topa",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Cody Bolton",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Naoyuki Uwasawa",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Kumar Rocker",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Tyler Duffey",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Ryan Miller",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Eli Villalobos",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Casey Kelly",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Ryder Ryan",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Lake Bachar",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Alex Lange",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Marco Gonzales",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Gregory Santos",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Giovanny Gallegos",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Jaden Hill",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Jacob Lopez",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Anthony Maldonado",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Gordon Graceffo",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Diego Castillo",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Brock Stewart",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "George Soriano",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Tyler Gilbert",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Brent Headrick",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Isaac Mattson",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Matt Foster",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Jairo Iriarte",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Ray Kerr",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Justin Sterner",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Miguel Diaz",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Adam Kloffenstein",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Rich Hill",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Trevor Rogers",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Josh Rogers",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Ryan Loutos",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Tyler Zuber",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "David Buchanan",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Yoendrys Gomez",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Humberto Castellanos",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Dylan Coleman",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Marc Church",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Jordan Montgomery",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Tyler Mahle",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Clayton Beeter",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Amir Garrett",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Brandon Eisert",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Chasen Shreve",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Walker Buehler",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Zach Penrod",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Gavin Hollowell",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Forrest Whitley",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Jordan Wicks",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Matt Andriese",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Evan Kravetz",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Caleb Kilian",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Alex Speas",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Jackson Stephens",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Andrew Wantz",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Wade Miley",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Evan Justice",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "James Meeker",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Matt Manning",
+        "player_team": "/mlb/teams/detroit-tigers.php"
+    },
+    {
+        "player_name": "Zac Kristofak",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Tyler Wells",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Jake Eder",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Vladimir Gutierrez",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Wes Parsons",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Josh Walker",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Clayton Andrews",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Scott Effross",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Sean Newcomb",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Davis Daniel",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Elieser Hernandez",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Anthony Misiewicz",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Colten Brewer",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Keaton Winn",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Logan Allen",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Nick Nelson",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Steven Wilson",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Chase Silseth",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Matt Koch",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Samuel Aldegheri",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Chris Devenski",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Gerardo Reyes",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Ian Gibaut",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "DL Hall",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Joey Lucchesi",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Lyon Richardson",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Jhonathan Diaz",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Luis F. Ortiz",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Brad Keller",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Nick Hernandez",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Caleb Boushley",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Grant Hartwig",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Chayce McDermott",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Kirby Snead",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Reid Detmers",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Thyago Vieira",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Randy Dobnak",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Kyle Hendricks",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Matt Krook",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Tejay Antone",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Tyler Jay",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Jay Jackson",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Amos Willingham",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Logan Gillaspie",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Jack O'Loughlin",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Ray Burgos",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Spencer Strider",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Dylan Dodd",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Daniel Palencia",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Yohan Ramirez",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Emmanuel Ramirez",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Aaron Brooks",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Nick Avila",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Joe Boyle",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Joely Rodriguez",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Joan Adon",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Julian Merryweather",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Deivi Garcia",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "J.P. Feyereisen",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Luis Contreras",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Phil Bickford",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Matt Barnes",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Jose Suarez",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "German Marquez",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Parker Mushinski",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Blair Henley",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Jake Bloss",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Cole Winn",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Jack Neely",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Kenny Rosenberg",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Joe Jacques",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Ryan Borucki",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Johnny Cueto",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Miguel Castro",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Zach Plesac",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Justin Bruihl",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Eric Orze",
+        "player_team": "/mlb/teams/new-york-mets.php"
+    },
+    {
+        "player_name": "Austin Davis",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Kody Funderburk",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Brett de Geus",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Kent Emanuel",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Bailey Horn",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Jose Cisnero",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Tyler Beede",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Brandon Bielak",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Julio Teheran",
+        "player_team": "/mlb/teams/baltimore-orioles.php"
+    },
+    {
+        "player_name": "Jordan Leasure",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Cristian Mena",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "John Curtiss",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Jonathan Bermudez",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Jose Cuas",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Sammy Peralta",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Zach Logue",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Anthony Gose",
+        "player_team": "/mlb/teams/cleveland-guardians.php"
+    },
+    {
+        "player_name": "Jonathan Bowlan",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Dan Altavilla",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Alex Wood",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Dallas Keuchel",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Parker Dunshee",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Slade Cecconi",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Carlos Rodriguez",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Peter Lambert",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Casey Legumina",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Zebby Matthews",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Antonio Senzatela",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Will Smith",
+        "player_team": "/mlb/teams/kansas-city-royals.php"
+    },
+    {
+        "player_name": "Bryan Shaw",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Brandon Leibrandt",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Mason Black",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Adrian Houser",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Bryce Elder",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Nick Ramirez",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Kyle Tyler",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Jacob Waguespack",
+        "player_team": "/mlb/teams/tampa-bay-rays.php"
+    },
+    {
+        "player_name": "Alan Busenitz",
+        "player_team": "/mlb/teams/cincinnati-reds.php"
+    },
+    {
+        "player_name": "Caden Dana",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Brady Feigl",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Ty Adcock",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Will Klein",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Noah Davis",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Bradley Blalock",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Mitch White",
+        "player_team": "/mlb/teams/milwaukee-brewers.php"
+    },
+    {
+        "player_name": "Dominic Leone",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Andrew Saalfrank",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Austin Pruitt",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Paolo Espino",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Victor Mederos",
+        "player_team": "/mlb/teams/los-angeles-angels.php"
+    },
+    {
+        "player_name": "Orlando Ribalta",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Mike Clevinger",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Trey Wingenter",
+        "player_team": "/mlb/teams/chicago-cubs.php"
+    },
+    {
+        "player_name": "Ky Bush",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Darren McCaughan",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Zach Brzykcy",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Tyler Matzek",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Justin Lawrence",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Riley Pint",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Geoff Hartlieb",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Grant Anderson",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Sixto Sanchez",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Darius Vines",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Matt Carasiti",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Brandon Hughes",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Spencer Howard",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Tommy Henry",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "J.P. France",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Easton Lucas",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Ross Stripling",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Riley O'Brien",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Lucas Gilbreath",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Scott McGough",
+        "player_team": "/mlb/teams/arizona-diamondbacks.php"
+    },
+    {
+        "player_name": "Michael Mercado",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Jonathan Heasley",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Yerry Rodriguez",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Tim Mayza",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Domingo German",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Kai-Wei Teng",
+        "player_team": "/mlb/teams/san-francisco-giants.php"
+    },
+    {
+        "player_name": "Owen White",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Connor Brogdon",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Ricardo Pinto",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Yonny Chirinos",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Jordan Weems",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Yunior Marte",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Isaiah Campbell",
+        "player_team": "/mlb/teams/boston-red-sox.php"
+    },
+    {
+        "player_name": "Daulton Jefferies",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Matt Sauer",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Zack Thompson",
+        "player_team": "/mlb/teams/st-louis-cardinals.php"
+    },
+    {
+        "player_name": "Seth Johnson",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Roddery Munoz",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Ben Heller",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Josiah Gray",
+        "player_team": "/mlb/teams/washington-nationals.php"
+    },
+    {
+        "player_name": "Allan Winans",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Austin Kitchen",
+        "player_team": "/mlb/teams/seattle-mariners.php"
+    },
+    {
+        "player_name": "Anthony Molina",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Touki Toussaint",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Adam Mazur",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Hurston Waldrep",
+        "player_team": "/mlb/teams/atlanta-braves.php"
+    },
+    {
+        "player_name": "Tom Cosgrove",
+        "player_team": "/mlb/teams/san-diego-padres.php"
+    },
+    {
+        "player_name": "Jake Woodford",
+        "player_team": "/mlb/teams/pittsburgh-pirates.php"
+    },
+    {
+        "player_name": "Luis Frias",
+        "player_team": "/mlb/teams/toronto-blue-jays.php"
+    },
+    {
+        "player_name": "Shaun Anderson",
+        "player_team": "/mlb/teams/miami-marlins.php"
+    },
+    {
+        "player_name": "Will Warren",
+        "player_team": "/mlb/teams/new-york-yankees.php"
+    },
+    {
+        "player_name": "Janson Junk",
+        "player_team": "/mlb/teams/oakland-athletics.php"
+    },
+    {
+        "player_name": "Nick Nastrini",
+        "player_team": "/mlb/teams/chicago-white-sox.php"
+    },
+    {
+        "player_name": "Louie Varland",
+        "player_team": "/mlb/teams/minnesota-twins.php"
+    },
+    {
+        "player_name": "Tanner Gordon",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Jack Leiter",
+        "player_team": "/mlb/teams/texas-rangers.php"
+    },
+    {
+        "player_name": "Dakota Hudson",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Ty Blach",
+        "player_team": "/mlb/teams/colorado-rockies.php"
+    },
+    {
+        "player_name": "Taijuan Walker",
+        "player_team": "/mlb/teams/philadelphia-phillies.php"
+    },
+    {
+        "player_name": "Bobby Miller",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    },
+    {
+        "player_name": "Carl Edwards Jr.",
+        "player_team": "Unknown"
+    },
+    {
+        "player_name": "Wander Suero",
+        "player_team": "/mlb/teams/houston-astros.php"
+    },
+    {
+        "player_name": "Shohei Ohtani",
+        "player_team": "/mlb/teams/los-angeles-dodgers.php"
+    }
+]

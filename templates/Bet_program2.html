@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="loadingScreen">
+        <h1>SP<img src="https://cdn.dribbble.com/users/8645137/screenshots/16135897/media/1823b082cbe2d61632d9c0163b27d6e4.gif" alt="disc" />RTS PROBABILITIES</h1>
+    </div>
+
+    <div class="wrapper">
+        <h1>SPORTS PROBABILITIES</h1>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form id="myForm" action="/generate-url" method="post">
+                    <label for="league">Choose a League:</label>
+                    <div class="radio-wrapper">
+                        <div class="radio-container" style="gap: 40px;">
+                            <input type="radio" id="league_mlb" name="league" value="MLB" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();">
+                            <label for="league_mlb" class="radio-label-mlb">
+                                <img src="https://res.cloudinary.com/jerrick/image/upload/v1646976165/622adca5feade9001f02da72.png" alt="MLB Logo" style="width: 165px; height: auto; clip-path: inset(0px 25px 0px 25px); margin-left: -25px; margin-right: -25px;">
+                            </label>
+                            <input type="radio" id="league_nfl" name="league" value="NFL" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();">
+                            <label for="league_nfl" class="radio-label-nfl">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/National_Football_League_logo.svg" alt="NFL Logo" style="width: 100px; height: auto;">
+                            </label>
+                        </div>                        
+                    </div><br>
+
+                    <div id="selection-container" class="selection-container">
+                        <label for="position">Choose a Position:</label>
+                        <div class="radio-wrapper">
+                            <div class="radio-container">
+                                <div id="mlb-position" class="hidden">
+                                    <input type="radio" id="position_pitcher" name="position" value="Pitcher">
+                                    <label for="position_pitcher" class="radio-label">Pitcher</label>
+                                    <input type="radio" id="position_batter" name="position" value="Batter">
+                                    <label for="position_batter" class="radio-label">Batter</label>
+                                    <input type="radio" id="position_mlb_team" name="position" value="Team">
+                                    <label for="position_mlb_team" class="radio-label">Team</label>
+                                </div>
+                    
+                                <div id="nfl-position" class="hidden">
+                                    <input type="radio" id="position_qb" name="position" value="QB">
+                                    <label for="position_qb" class="radio-label">QB</label>
+                                    <input type="radio" id="position_rb" name="position" value="RB">
+                                    <label for="position_rb" class="radio-label">RB</label>
+                                    <input type="radio" id="position_wr" name="position" value="WR">
+                                    <label for="position_wr" class="radio-label">WR</label>
+                                    <input type="radio" id="position_te" name="position" value="TE">
+                                    <label for="position_te" class="radio-label">TE</label>
+                                    <input type="radio" id="position_nfl_team" name="position" value="Team">
+                                    <label for="position_nfl_team" class="radio-label">Team</label>
+                                </div>
+                            </div>
+                        </div><br><br>
+                    
+                        <label for="playername">Player/Team Name:</label><br>
+                        <input list="player-suggestions" id="playername" name="playername" required>
+                        <datalist id="player-suggestions">
+                        </datalist>
+
+                        <div class="radio-wrapper" required>
+                            <div class="radio-container">
+                                <input type="radio" id="oddtype1" name="overunder" value="over">
+                                <label for="oddtype1" class="radio-label">Over</label>
+                                <input type="radio" id="oddtype2" name="overunder" value="under">
+                                <label for="oddtype2" class="radio-label">Under</label>
+                            </div>
+                    
+                            <div class="radio-container" required>
+                                <input type="radio" id="year1" name="year" value="2024" required>
+                                <label for="year1" class="radio-label">2024</label>
+                                <input type="radio" id="year2" name="year" value="2025" required>
+                                <label for="year2" class="radio-label">2025</label>
+                            </div>
+                        </div>
+                    
+                        <div class="button-container">
+                            <button type="button" id="toggle-advanced">Advanced Search</button>
+                        </div>
+                    
+                        <div id="advanced-search" class="hidden">
+                            <div id="mlb-advanced-search" class="hidden">
+                                <label for="mlb_percent_threshold">Min Percent Probability:</label><br>
+                                <input type="number" id="mlb_percent_threshold" name="mlb_percent_threshold" value="75"><br>
+                                <label for="opp_pitcher_hits_threshold">(Batter) Min Pitcher Hits/Game Threshold:</label>
+                                <input type="number" id="opp_pitcher_hits_threshold" name="opp_pitcher_hits_threshold" value="3"><br>
+                                <label for="batter_min_game_threshold">(Batter) Min Games Searched:</label>
+                                <input type="number" id="batter_min_game_threshold" name="batter_min_game_threshold" value="30"><br>
+                                <label for="pitcher_min_game_threshold">(Pitcher) Min Games Searched:</label>
+                                <input type="number" id="pitcher_min_game_threshold" name="pitcher_min_game_threshold" value="10"><br>
+                                <label for="team_min_game_threshold">(Team) Min Games Searched:</label>
+                                <input type="number" id="team_min_game_threshold" name="team_min_game_threshold" value="30">
+                            </div>
+                    
+                            <div id="nfl-advanced-search" class="hidden">
+                                <label for="nfl_percent_threshold">Min Percent Probability:</label>
+                                <input type="number" id="nfl_percent_threshold" name="nfl_percent_threshold" value="75"><br>
+                                <label for="game_threshold">Min Games Searched:</label>
+                                <input type="number" id="game_threshold" name="game_threshold" value="5">
+                            </div>
+                        </div>
+                    </div>
+                    
+                                        
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="submitLoadingScreen" style="display: none;">
+        <div class="loading-content">
+            <h1>SP<img src="https://cdn.dribbble.com/users/8645137/screenshots/16135897/media/1823b082cbe2d61632d9c0163b27d6e4.gif" alt="disc" />RTS PROBABILITIES</h1>
+            <p id="playerName">Calculating Probabilities for [playerName]...</p>
+        </div>
+    </div>
+      
+
+    <script>
+        // Adds team/player specific name to loading screen
+        function updateLoadingScreen() {
+            const playerName = document.getElementById('playername').value;
+            const selectedPosition = document.querySelector('input[name="position"]:checked').value;
+
+            if (selectedPosition === "Team") {
+                document.getElementById('playerName').textContent = `Calculating Probabilities for the ${playerName}...`;
+            } else {
+                document.getElementById('playerName').textContent = `Calculating Probabilities for ${playerName}...`;
+            }
+        }
+
+        // Expand proper "Advanced Search" section
+        function updateAdvancedSearch() {
+            const selectedLeague = document.querySelector('input[name="league"]:checked');
+            const mlbAdvancedSearch = document.getElementById('mlb-advanced-search');
+            const nflAdvancedSearch = document.getElementById('nfl-advanced-search');
+
+            mlbAdvancedSearch.style.display = 'none';
+            nflAdvancedSearch.style.display = 'none';
+
+            // Show the appropriate league section
+            if (selectedLeague && selectedLeague.value === 'MLB') {
+                mlbAdvancedSearch.style.display = 'block';
+            } else if (selectedLeague && selectedLeague.value === 'NFL') {
+                nflAdvancedSearch.style.display = 'block';
+            }
+        }
+
+        // Expand proper position selections
+        function updatePosition() {
+            const selectedLeague = document.querySelector('input[name="league"]:checked');
+            const mlbPosition = document.getElementById('mlb-position');
+            const nflPosition = document.getElementById('nfl-position');
+
+            mlbPosition.style.display = 'none';
+            nflPosition.style.display = 'none';
+        
+            // Show the appropriate league section
+            if (selectedLeague && selectedLeague.value === 'MLB') {
+                mlbPosition.style.display = 'block';
+            } else if (selectedLeague && selectedLeague.value === 'NFL') {
+                nflPosition.style.display = 'block';
+            }
+        }
+
+        function updateContentVisibility() {
+            const selectedLeague = document.querySelector('input[name="league"]:checked');
+            const contentContainer = document.getElementById('selection-container');
+            if (selectedLeague) {
+                contentContainer.classList.add('expanded');
+            } else {
+                contentContainer.classList.remove('expanded');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('selection-container').classList.remove('expanded');
+            updateContentVisibility();
+            updateAdvancedSearch();
+        });
+
+        function handleLoadingScreen() {
+            const params = new URLSearchParams(window.location.search);
+            const skipLoading = params.get('skipLoading') === 'true';
+    
+            if (skipLoading) {
+                // Bypass initial loading screen for new searches
+                document.querySelector('.loadingScreen').style.display = 'none';
+                document.querySelector('.wrapper').classList.add('visible');
+            } else {
+                const loadingScreen = document.querySelector('.loadingScreen');
+                loadingScreen.style.animation = 'fadeInAnimation ease 1s';
+    
+                setTimeout(function() {
+                    loadingScreen.style.animation = 'fadeOutAnimation ease 1s';
+                    setTimeout(function() {
+                        loadingScreen.style.display = 'none';
+                        document.querySelector('.wrapper').classList.add('visible');
+                    }, 500);
+                }, 4000);
+            }
+        }
+    
+        // Show loading screen after submission
+        function showLoadingScreen() {
+            updateLoadingScreen();
+            const loadingScreen = document.getElementById('submitLoadingScreen');
+            loadingScreen.style.display = 'flex';
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 11000);
+        }
+    
+        // Intro loading screen when the page loads
+        window.addEventListener('load', handleLoadingScreen);
+    
+        // Event listener for form submission
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            showLoadingScreen();
+        });
+    
+        document.getElementById('toggle-advanced').addEventListener('click', function() {
+            var advancedSection = document.getElementById('advanced-search');
+            advancedSection.classList.toggle('hidden');
+        });
+    
+        const radioButtons = document.querySelectorAll('.radio-container input[type="radio"]');
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', function() {
+                radioButtons.forEach(r => r.nextElementSibling.classList.remove('selected'));
+                if (this.checked) {
+                    this.nextElementSibling.classList.add('selected');
+                }
+            });
+        });
+    
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mousedown', function() {
+                this.style.backgroundColor = '#88cef3';
+                this.style.transform = 'scale(0.95)';
+            });
+    
+            button.addEventListener('mouseup', function() {
+                setTimeout(() => {
+                    this.style.backgroundColor = '#007BFF';
+                    this.style.transform = 'scale(1)';
+                }, 100);
+            });
+        });
+        
+        // Check for properly filled out forn
+        function isFormInvalid() {
+            const requiredTextInputs = document.querySelectorAll('input[type="text"][required], input[type="number"][required]');
+            const textInputsInvalid = Array.from(requiredTextInputs).some(input => input.value.trim() === '');
+
+            const requiredRadioGroups = document.querySelectorAll('div.radio-container');
+            const radioGroupsInvalid = Array.from(requiredRadioGroups).some(group => {
+                const checked = group.querySelector('input[type="radio"]:checked');
+                return !checked;
+            });
+        
+            const playernameInput = document.getElementById('playername');
+            const playernameInvalid = !playernameInput.validity.valid;
+        
+            return textInputsInvalid || radioGroupsInvalid || playernameInvalid;
+        }
+
+        window.addEventListener('pageshow', function(event) {
+            const wrapper = document.querySelector('.wrapper');
+            if (event.persisted && wrapper) {
+                wrapper.style.transition = 'none';
+                wrapper.classList.remove('visible');
+            
+                requestAnimationFrame(() => {
+                    wrapper.style.transition = 'opacity .5s ease-in';
+                    wrapper.classList.add('visible');
+                });
+            }
+        });
+
+        // Populate name dropdown
+        function populateDropdown(datalist, jsonUrl) {
+            datalist.innerHTML = '';
+        
+            fetch(jsonUrl)
+                .then(response => response.json())
+                .then(data => {
+                    let sortedOptions = [];
+                    if (Array.isArray(data)) {
+                        sortedOptions = data.map(item => item.player_name).sort();
+                    } else if (typeof data === 'object') {
+                        sortedOptions = Object.keys(data).sort();
+                    }
+                
+                    sortedOptions.forEach(optionValue => {
+                        const option = document.createElement('option');
+                        option.value = optionValue;
+                        datalist.appendChild(option);
+                    });
+                })
+                .catch(error => console.error('Error fetching JSON data:', error));
+        }
+
+        function updateDropdown() {
+            const selectedPosition = document.querySelector('input[name="position"]:checked');
+        
+            if (selectedPosition) {
+                const positionId = selectedPosition.id;
+                const datalist = document.getElementById('player-suggestions');
+                const playerNameInput = document.getElementById('playername');
+            
+                let jsonUrl;
+                if (positionId === 'position_pitcher') {
+                    jsonUrl = '/static/data/MLB/Pitcher_Names/pitcherNames.json';  
+                } else if (positionId === 'position_batter') {
+                    jsonUrl = '/static/data/MLB/Batter_Names/batterNames.json'; 
+                } else if (positionId === 'position_mlb_team') {
+                    jsonUrl = '/static/data/MLB/Team_Names/teamCodes.json'; 
+                } else if (positionId === 'position_qb') {
+                    jsonUrl = '/static/data/NFL/QB_Names/qbNames.json'; 
+                } else if (positionId === 'position_rb') {
+                    jsonUrl = '/static/data/NFL/RB_Names/rbNames.json'; 
+                } else if (positionId === 'position_wr') {
+                    jsonUrl = '/static/data/NFL/WR_Names/wrNames.json'; 
+                } else if (positionId === 'position_te') {
+                    jsonUrl = '/static/data/NFL/TE_Names/teNames.json'; 
+                } else if (positionId === 'position_nfl_team') {
+                    jsonUrl = '/static/data/NFL/Team_Names/teamCodes.json'; 
+                } else {
+                    jsonUrl = ''; 
+                }
+            
+                playerNameInput.value = '';
+            
+                if (jsonUrl) {
+                    populateDropdown(datalist, jsonUrl);
+                }
+            }
+        }
+
+        document.querySelectorAll('input[name="position"]').forEach(radio => {
+            radio.addEventListener('change', updateDropdown);
+        });
+
+        const playerNameInput = document.getElementById('playername');
+            
+        // Validate player name
+        function validatePlayerName() {
+            const datalist = document.getElementById('player-suggestions');
+            const options = Array.from(datalist.options).map(option => option.value);
+        
+            if (options.includes(playerNameInput.value)) {
+                playerNameInput.setCustomValidity("");
+            } else {
+                playerNameInput.setCustomValidity("Invalid player name. Please select a valid name from the suggestions.");
+            }
+        }
+        
+        function showErrorMessageOnBlur() {
+            if (!playerNameInput.checkValidity()) {
+                playerNameInput.reportValidity();
+            }
+        }
+        
+        playerNameInput.addEventListener('input', validatePlayerName);
+        
+        playerNameInput.addEventListener('blur', showErrorMessageOnBlur);
+        
+        function handleFirstInput() {
+            playerNameInput.classList.remove('pristine');
+            validatePlayerName();
+        }
+        
+        playerNameInput.classList.add('pristine');
+        playerNameInput.addEventListener('input', handleFirstInput);
+
+        function toggleSubmitButton() {
+            const submitButton = document.querySelector('button[type="submit"]');
+            const isInvalid = isFormInvalid();
+                
+            submitButton.disabled = isInvalid;
+            if (isInvalid) {
+                submitButton.classList.add('disabled');
+            } else {
+                submitButton.classList.remove('disabled');
+            }
+        }
+        
+        document.querySelectorAll('input[required]').forEach(input => {
+            input.addEventListener('input', toggleSubmitButton);
+            input.addEventListener('blur', toggleSubmitButton);
+        });
+        
+        window.addEventListener('load', toggleSubmitButton);
+
+    </script>
+           
+</body>
+
+</html>

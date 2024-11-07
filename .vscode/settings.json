@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "./Backend/Scraped_Data/URLgenerator",
+        "./Backend/Scraped_Data/Opp_Finder",
+        "./Backend/Scraped_Data/Teams",
+        "./Backend/Names/MLB/Opp_Finder",
+        "./Backend/Scraped_Data/NFL/_URLgenerator",
+        "./Backend/Names/NFL/Opp_Finder"
+    ]
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="image-container">
+            {% if player_image %}
+            <img src="{{ player_image }}" alt="{{ player_name }}" class="player-image">
+            {% endif %}
+            {% if team_image %}
+            <img src="{{ team_image }}" alt="{{ player_name }}" class="team-image">
+            {% endif %}
+            <div class="text-container">
+                <h3>{{ player_name }}<br>Probabilities</h3>
+            </div>
+        </div>
+        <div class="container1" id="container1">
+            <div class="results-row">
+                <div class="result-group">
+                    <h2>{{ over_under }} {{ stat100_name }}</h2>
+                    <div class="result-container">
+                        {% if stat101_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Under" %}
+                            <p1>{{ stat101_variable }} = {{ stat101_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat101_variable }} = {{ stat101_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat102_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Under" %}
+                            <p1>{{ stat102_variable }} = {{ stat102_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat102_variable }} = {{ stat102_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat100_variable == "PNAO" %}
+                        <div class="result-box lifted-na">
+                            <p>Min Pitcher Hits Too High</p>
+                        </div>
+                        {% elif stat100_variable == "PNAU" %}
+                        <div class="result-box lifted-na">
+                            <p>Min Pitcher Hits Too Low</p>
+                        </div>
+                        {% elif stat100_variable %}
+                        <div class="result-box lifted">
+                            <p>{{ stat100_variable }} = {{ stat100_percentage }}</p>
+                        </div>
+                        {% else %}
+                        <div class="result-box lifted-na">
+                            <p1>Min Percent Probability Too High</p1>
+                        </div>
+                        {% endif %}
+                        {% if stat103_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Over" %}
+                            <p1>{{ stat103_variable }} = {{ stat103_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat103_variable }} = {{ stat103_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat104_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Over" %}
+                            <p1>{{ stat104_variable }} = {{ stat104_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat104_variable }} = {{ stat104_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                {% if stat200_name %}
+                <div class="result-group">
+                    <h2>{{ over_under }} {{ stat200_name }}</h2>
+                    <div class="result-container">
+                        {% if stat201_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Under" %}
+                            <p1>{{ stat201_variable }} = {{ stat201_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat201_variable }} = {{ stat201_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat202_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Under" %}
+                            <p1>{{ stat202_variable }} = {{ stat202_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat202_variable }} = {{ stat202_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat200_variable == "PNAO" %}
+                        <div class="result-box lifted-na">
+                            <p>Min Pitcher Hits Too High</p>
+                        </div>
+                        {% elif stat200_variable == "PNAU" %}
+                        <div class="result-box lifted-na">
+                            <p>Min Pitcher Hits Too Low</p>
+                        </div>
+                        {% elif stat200_variable %}
+                        <div class="result-box lifted">
+                            <p>{{ stat200_variable }} = {{ stat200_percentage }}</p>
+                        </div>
+                        {% else %}
+                        <div class="result-box lifted-na">
+                            <p1>Min Percent Probability Too High</p1>
+                        </div>
+                        {% endif %}
+                        {% if stat203_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Over" %}
+                            <p1>{{ stat203_variable }} = {{ stat203_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat203_variable }} = {{ stat203_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat204_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Over" %}
+                            <p1>{{ stat204_variable }} = {{ stat204_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat204_variable }} = {{ stat204_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if stat300_name %}
+                <div class="result-group">
+                    {% if player_image %}
+                    <h2>{{ over_under }} {{ stat300_name }}</h2>
+                    {% endif %}
+                    {% if team_image %}
+                    <h2>{{ stat300_name }}</h2>
+                    {% endif %}
+                    <div class="result-container">
+                        {% if stat301_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Under" %}
+                            <p1>{{ stat301_variable }} = {{ stat301_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat301_variable }} = {{ stat301_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat302_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Under" %}
+                            <p1>{{ stat302_variable }} = {{ stat302_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat302_variable }} = {{ stat302_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat300_variable == "PNAO" %}
+                        <div class="result-box lifted-na">
+                            <p>Min Pitcher Hits Too High</p>
+                        </div>
+                        {% elif stat300_variable == "PNAU" %}
+                        <div class="result-box lifted-na">
+                            <p>Min Pitcher Hits Too Low</p>
+                        </div>
+                        {% elif stat300_variable %}
+                        <div class="result-box lifted">
+                            <p>{{ stat300_variable }} = {{ stat300_percentage }}</p>
+                        </div>
+                        {% else %}
+                        <div class="result-box lifted-na">
+                            <p1>Min Percent Probability Too High</p1>
+                        </div>
+                        {% endif %}
+                        {% if stat303_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Over" %}
+                            <p1>{{ stat303_variable }} = {{ stat303_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat303_variable }} = {{ stat303_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                        {% if stat304_variable %}
+                        <div class="result-box">
+                            {% if over_under == "Over" %}
+                            <p1>{{ stat304_variable }} = {{ stat304_percentage }}*</p1>
+                            {% else %}
+                            <p1>{{ stat304_variable }} = {{ stat304_percentage }}</p1>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                        <div class="result-box-na">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            <p2>*Less probable due to opposing Player/Team's stats</p2>
+                <div class="button-container">
+                    <button class="btn-previous" onclick="window.history.back();">Adjust {{ player_name }} Search</button>
+                    <button type="button" onclick="window.location.href='/?skipLoading=true';">New Search</button>
+                </div>
+        </div>
+    </div>
+    <script>
+        setTimeout(function() {
+                    document.querySelector('.wrapper').classList.add('visible');
+                }, 500);
+
+        // For the "Adjust Search" button (back to previous page)
+        document.querySelector('.btn-previous').addEventListener('click', function(event) {
+            event.preventDefault();
+            const wrapper = document.querySelector('.wrapper');
+            wrapper.classList.add('fade-out');
+
+            setTimeout(function() {
+                window.history.back();
+            }, 500);
+        });
+
+        // For the "New Search" button (navigate to program home page)
+        document.querySelector('.button-container button[type="button"]').addEventListener('click', function(event) {
+            event.preventDefault();
+            const wrapper = document.querySelector('.wrapper');
+            wrapper.classList.add('fade-out');
+
+            setTimeout(function() {
+                window.location.href = '/';
+            }, 500);
+        });
+
+        // Adjusts button size and color for clicks
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mousedown', function() {
+                this.style.backgroundColor = '#88cef3';
+                this.style.transform = 'scale(0.95)';
+            });
+
+            button.addEventListener('mouseup', function() {
+                setTimeout(() => {
+                    this.style.backgroundColor = '#007BFF';
+                    this.style.transform = 'scale(1)';
+                }, 100);
+            });
+        });
+
+    </script>
+</body>
+</html>
