@@ -1,62 +1,58 @@
 [
     {
-        "Away Team": "/nfl/teams/houston-texans.php",
-        "Home Team": "/nfl/teams/new-york-jets.php"
-    },
-    {
-        "Away Team": "/nfl/teams/denver-broncos.php",
+        "Away Team": "/nfl/teams/cincinnati-bengals.php",
         "Home Team": "/nfl/teams/baltimore-ravens.php"
     },
     {
-        "Away Team": "/nfl/teams/dallas-cowboys.php",
-        "Home Team": "/nfl/teams/atlanta-falcons.php"
-    },
-    {
-        "Away Team": "/nfl/teams/miami-dolphins.php",
-        "Home Team": "/nfl/teams/buffalo-bills.php"
-    },
-    {
-        "Away Team": "/nfl/teams/new-england-patriots.php",
-        "Home Team": "/nfl/teams/tennessee-titans.php"
-    },
-    {
-        "Away Team": "/nfl/teams/las-vegas-raiders.php",
-        "Home Team": "/nfl/teams/cincinnati-bengals.php"
-    },
-    {
-        "Away Team": "/nfl/teams/new-orleans-saints.php",
+        "Away Team": "/nfl/teams/new-york-giants.php",
         "Home Team": "/nfl/teams/carolina-panthers.php"
     },
     {
-        "Away Team": "/nfl/teams/washington-commanders.php",
-        "Home Team": "/nfl/teams/new-york-giants.php"
+        "Away Team": "/nfl/teams/denver-broncos.php",
+        "Home Team": "/nfl/teams/kansas-city-chiefs.php"
     },
     {
-        "Away Team": "/nfl/teams/los-angeles-chargers.php",
-        "Home Team": "/nfl/teams/cleveland-browns.php"
+        "Away Team": "/nfl/teams/atlanta-falcons.php",
+        "Home Team": "/nfl/teams/new-orleans-saints.php"
     },
     {
-        "Away Team": "/nfl/teams/jacksonville-jaguars.php",
-        "Home Team": "/nfl/teams/philadelphia-eagles.php"
+        "Away Team": "/nfl/teams/pittsburgh-steelers.php",
+        "Home Team": "/nfl/teams/washington-commanders.php"
     },
     {
-        "Away Team": "/nfl/teams/chicago-bears.php",
+        "Away Team": "/nfl/teams/buffalo-bills.php",
+        "Home Team": "/nfl/teams/indianapolis-colts.php"
+    },
+    {
+        "Away Team": "/nfl/teams/new-england-patriots.php",
+        "Home Team": "/nfl/teams/chicago-bears.php"
+    },
+    {
+        "Away Team": "/nfl/teams/minnesota-vikings.php",
+        "Home Team": "/nfl/teams/jacksonville-jaguars.php"
+    },
+    {
+        "Away Team": "/nfl/teams/san-francisco-49ers.php",
+        "Home Team": "/nfl/teams/tampa-bay-buccaneers.php"
+    },
+    {
+        "Away Team": "/nfl/teams/tennessee-titans.php",
+        "Home Team": "/nfl/teams/los-angeles-chargers.php"
+    },
+    {
+        "Away Team": "/nfl/teams/philadelphia-eagles.php",
+        "Home Team": "/nfl/teams/dallas-cowboys.php"
+    },
+    {
+        "Away Team": "/nfl/teams/new-york-jets.php",
         "Home Team": "/nfl/teams/arizona-cardinals.php"
     },
     {
         "Away Team": "/nfl/teams/detroit-lions.php",
-        "Home Team": "/nfl/teams/green-bay-packers.php"
+        "Home Team": "/nfl/teams/houston-texans.php"
     },
     {
-        "Away Team": "/nfl/teams/los-angeles-rams.php",
-        "Home Team": "/nfl/teams/seattle-seahawks.php"
-    },
-    {
-        "Away Team": "/nfl/teams/indianapolis-colts.php",
-        "Home Team": "/nfl/teams/minnesota-vikings.php"
-    },
-    {
-        "Away Team": "/nfl/teams/tampa-bay-buccaneers.php",
-        "Home Team": "/nfl/teams/kansas-city-chiefs.php"
+        "Away Team": "/nfl/teams/miami-dolphins.php",
+        "Home Team": "/nfl/teams/los-angeles-rams.php"
     }
 ]

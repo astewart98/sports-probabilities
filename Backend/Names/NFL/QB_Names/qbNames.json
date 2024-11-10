@@ -4,6 +4,10 @@
         "player_team": "BAL"
     },
     {
+        "player_name": "Joe Burrow",
+        "player_team": "CIN"
+    },
+    {
         "player_name": "Baker Mayfield",
         "player_team": "TB"
     },
@@ -16,60 +20,60 @@
         "player_team": "BUF"
     },
     {
-        "player_name": "Brock Purdy",
-        "player_team": "SF"
-    },
-    {
-        "player_name": "Joe Burrow",
-        "player_team": "CIN"
-    },
-    {
         "player_name": "Jalen Hurts",
         "player_team": "PHI"
-    },
-    {
-        "player_name": "Kyler Murray",
-        "player_team": "ARI"
-    },
-    {
-        "player_name": "Bo Nix",
-        "player_team": "DEN"
     },
     {
         "player_name": "Geno Smith",
         "player_team": "SEA"
     },
     {
-        "player_name": "Kirk Cousins",
-        "player_team": "ATL"
+        "player_name": "Bo Nix",
+        "player_team": "DEN"
+    },
+    {
+        "player_name": "Kyler Murray",
+        "player_team": "ARI"
+    },
+    {
+        "player_name": "Brock Purdy",
+        "player_team": "SF"
     },
     {
         "player_name": "Trevor Lawrence",
         "player_team": "JAC"
     },
     {
-        "player_name": "Jared Goff",
-        "player_team": "DET"
+        "player_name": "Kirk Cousins",
+        "player_team": "ATL"
     },
     {
         "player_name": "Aaron Rodgers",
         "player_team": "NYJ"
     },
     {
+        "player_name": "Sam Darnold",
+        "player_team": "MIN"
+    },
+    {
+        "player_name": "Jared Goff",
+        "player_team": "DET"
+    },
+    {
         "player_name": "C.J. Stroud",
         "player_team": "HOU"
     },
     {
-        "player_name": "Sam Darnold",
-        "player_team": "MIN"
+        "player_name": "Patrick Mahomes II",
+        "player_team": "KC"
     },
     {
         "player_name": "Jordan Love",
         "player_team": "GB"
     },
     {
-        "player_name": "Justin Fields",
-        "player_team": "PIT"
+        "player_name": "Daniel Jones",
+        "player_team": "NYG"
     },
     {
         "player_name": "Dak Prescott",
@@ -80,36 +84,36 @@
         "player_team": "CHI"
     },
     {
-        "player_name": "Patrick Mahomes II",
-        "player_team": "KC"
-    },
-    {
-        "player_name": "Daniel Jones",
-        "player_team": "NYG"
-    },
-    {
         "player_name": "Justin Herbert",
         "player_team": "LAC"
+    },
+    {
+        "player_name": "Justin Fields",
+        "player_team": "PIT"
     },
     {
         "player_name": "Matthew Stafford",
         "player_team": "LAR"
     },
     {
+        "player_name": "Derek Carr",
+        "player_team": "NO"
+    },
+    {
         "player_name": "Deshaun Watson",
         "player_team": "CLE"
     },
     {
-        "player_name": "Derek Carr",
-        "player_team": "NO"
+        "player_name": "Gardner Minshew II",
+        "player_team": "LV"
     },
     {
         "player_name": "Anthony Richardson",
         "player_team": "IND"
     },
     {
-        "player_name": "Gardner Minshew II",
-        "player_team": "LV"
+        "player_name": "Drake Maye",
+        "player_team": "NE"
     },
     {
         "player_name": "Andy Dalton",
@@ -120,8 +124,12 @@
         "player_team": "IND"
     },
     {
-        "player_name": "Drake Maye",
-        "player_team": "NE"
+        "player_name": "Tua Tagovailoa",
+        "player_team": "MIA"
+    },
+    {
+        "player_name": "Mason Rudolph",
+        "player_team": "TEN"
     },
     {
         "player_name": "Malik Willis",
@@ -132,19 +140,11 @@
         "player_team": "NE"
     },
     {
+        "player_name": "Jameis Winston",
+        "player_team": "CLE"
+    },
+    {
         "player_name": "Will Levis",
-        "player_team": "TEN"
-    },
-    {
-        "player_name": "Tua Tagovailoa",
-        "player_team": "MIA"
-    },
-    {
-        "player_name": "Russell Wilson",
-        "player_team": "PIT"
-    },
-    {
-        "player_name": "Mason Rudolph",
         "player_team": "TEN"
     },
     {
@@ -152,8 +152,8 @@
         "player_team": "CAR"
     },
     {
-        "player_name": "Jameis Winston",
-        "player_team": "CLE"
+        "player_name": "Russell Wilson",
+        "player_team": "PIT"
     },
     {
         "player_name": "Tyler Huntley",
@@ -176,6 +176,10 @@
         "player_team": "NO"
     },
     {
+        "player_name": "Cooper Rush",
+        "player_team": "DAL"
+    },
+    {
         "player_name": "Skylar Thompson",
         "player_team": "MIA"
     },
@@ -192,16 +196,16 @@
         "player_team": "CLE"
     },
     {
+        "player_name": "Desmond Ridder",
+        "player_team": "LV"
+    },
+    {
         "player_name": "Davis Mills",
         "player_team": "HOU"
     },
     {
         "player_name": "Drew Lock",
         "player_team": "NYG"
-    },
-    {
-        "player_name": "Cooper Rush",
-        "player_team": "DAL"
     },
     {
         "player_name": "Nick Mullens",
@@ -224,16 +228,16 @@
         "player_team": "ATL"
     },
     {
-        "player_name": "Kenny Pickett",
-        "player_team": "PHI"
+        "player_name": "Josh Johnson",
+        "player_team": "BAL"
     },
     {
         "player_name": "Zach Wilson",
         "player_team": "DEN"
     },
     {
-        "player_name": "John Rhys Plumlee",
-        "player_team": "JAC"
+        "player_name": "Kenny Pickett",
+        "player_team": "PHI"
     },
     {
         "player_name": "Sam Ehlinger",
@@ -256,16 +260,20 @@
         "player_team": "GB"
     },
     {
-        "player_name": "Desmond Ridder",
-        "player_team": "LV"
-    },
-    {
         "player_name": "Feleipe Franks",
         "player_team": "CAR"
     },
     {
         "player_name": "Trey Lance",
         "player_team": "DAL"
+    },
+    {
+        "player_name": "Michael Pratt",
+        "player_team": "TB"
+    },
+    {
+        "player_name": "Tanner Mordecai",
+        "player_team": "SF"
     },
     {
         "player_name": "Chris Oladokun",
@@ -280,8 +288,28 @@
         "player_team": "PHI"
     },
     {
-        "player_name": "Sam Hartman",
-        "player_team": "WAS"
+        "player_name": "Carter Bradley",
+        "player_team": "LV"
+    },
+    {
+        "player_name": "Austin Reed",
+        "player_team": "CHI"
+    },
+    {
+        "player_name": "Jack Plummer",
+        "player_team": "CAR"
+    },
+    {
+        "player_name": "Jason Bean",
+        "player_team": "IND"
+    },
+    {
+        "player_name": "John Rhys Plumlee",
+        "player_team": "JAC"
+    },
+    {
+        "player_name": "Jordan Travis",
+        "player_team": "NYJ"
     },
     {
         "player_name": "Tommy DeVito",
@@ -292,30 +320,6 @@
         "player_team": "NE"
     },
     {
-        "player_name": "Jordan Travis",
-        "player_team": "NYJ"
-    },
-    {
-        "player_name": "Michael Pratt",
-        "player_team": "TB"
-    },
-    {
-        "player_name": "Tanner Mordecai",
-        "player_team": "SF"
-    },
-    {
-        "player_name": "Austin Reed",
-        "player_team": "CHI"
-    },
-    {
-        "player_name": "J.J. McCarthy",
-        "player_team": "MIN"
-    },
-    {
-        "player_name": "Carter Bradley",
-        "player_team": "LV"
-    },
-    {
         "player_name": "Adrian Martinez",
         "player_team": "NYJ"
     },
@@ -324,28 +328,28 @@
         "player_team": "SEA"
     },
     {
-        "player_name": "Jason Bean",
-        "player_team": "IND"
+        "player_name": "J.J. McCarthy",
+        "player_team": "MIN"
     },
     {
-        "player_name": "Jack Plummer",
-        "player_team": "CAR"
-    },
-    {
-        "player_name": "Stetson Bennett",
-        "player_team": "LAR"
+        "player_name": "Anthony Brown Jr.",
+        "player_team": "ARI"
     },
     {
         "player_name": "Bailey Zappe",
         "player_team": "CLE"
     },
     {
+        "player_name": "Sam Hartman",
+        "player_team": "WAS"
+    },
+    {
         "player_name": "Jaren Hall",
         "player_team": "SEA"
     },
     {
-        "player_name": "Anthony Brown Jr.",
-        "player_team": "ARI"
+        "player_name": "Stetson Bennett",
+        "player_team": "LAR"
     },
     {
         "player_name": "Kedon Slovis",
@@ -376,10 +380,6 @@
         "player_team": "HOU"
     },
     {
-        "player_name": "Josh Johnson",
-        "player_team": "BAL"
-    },
-    {
         "player_name": "Taysom Hill",
         "player_team": "NO"
     },
@@ -401,31 +401,23 @@
     },
     {
         "player_name": "C.J. Beathard",
-        "player_team": "MIA"
+        "player_team": "JAC"
     },
     {
         "player_name": "Easton Stick",
         "player_team": "LAC"
     },
     {
-        "player_name": "Jake Browning",
-        "player_team": "CIN"
-    },
-    {
         "player_name": "Brett Rypien",
         "player_team": "MIN"
     },
     {
-        "player_name": "Will Grier",
-        "player_team": "PHI"
+        "player_name": "Brett Smith",
+        "player_team": "TB"
     },
     {
         "player_name": "Jimmy Garoppolo",
         "player_team": "LAR"
-    },
-    {
-        "player_name": "Brett Smith",
-        "player_team": "TB"
     },
     {
         "player_name": "Carson Wentz",
@@ -438,6 +430,10 @@
     {
         "player_name": "Trevor Siemian",
         "player_team": "TEN"
+    },
+    {
+        "player_name": "Jake Browning",
+        "player_team": "CIN"
     },
     {
         "player_name": "Brandon Allen",
