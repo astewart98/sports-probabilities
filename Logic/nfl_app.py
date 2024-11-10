@@ -9,7 +9,7 @@ import base64
 nfl_bp = Blueprint('nfl_bp', __name__, url_prefix='/nfl')
 
 # Extract todays schedule
-nfl_schedule_script = 'Backend/Schedules/nfl/nflSchedule.py'
+nfl_schedule_script = 'Backend/Schedules/NFL/nflSchedule.py'
 subprocess.run(['python3', nfl_schedule_script])
 
 sys.path.append('Backend/Names/NFL/Opp_Finder')
