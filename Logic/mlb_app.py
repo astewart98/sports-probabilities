@@ -9,7 +9,7 @@ import base64
 mlb_bp = Blueprint('mlb_bp', __name__, url_prefix='/mlb')
 
 # Extract todays schedule
-mlb_schedule_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Schedules/MLB/mlbSchedule.py'
+mlb_schedule_script = 'Backend/Schedules/MLB/mlbSchedule.py'
 subprocess.run(['python3', mlb_schedule_script])
 
 sys.path.append(os.path.join(os.getcwd(), 'Backend', 'Names', 'MLB', 'Opp_Finder'))
@@ -49,19 +49,19 @@ def handle_mlb_logic(request):
 
     if position == 'batter':
         module_name = 'urlGeneratorBatterPitcher'
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/MLB/calculateBatter.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Photos/scrapeBatterPitcherPhoto.py'
+        script_path = 'Backend/Calculations/MLB/calculateBatter.py'
+        image_script_path = 'Backend/Scraped_Data/MLB/Photos/scrapeBatterPitcherPhoto.py'
     elif position == 'pitcher':
         module_name = 'urlGeneratorBatterPitcher'
         team_module_name = 'urlGeneratorTeam'
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/MLB/calculatePitcher.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Photos/scrapeBatterPitcherPhoto.py'
+        script_path = 'Backend/Calculations/MLB/calculatePitcher.py'
+        image_script_path = 'Backend/Scraped_Data/MLB/Photos/scrapeBatterPitcherPhoto.py'
         team_module = importlib.import_module(team_module_name)
     elif position == 'team':
         module_name = 'urlGeneratorTeam'
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/MLB/calculateTeam.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Photos/scrapeTeamLogo.py'
-        team_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Team_Names/teamCodes.json'
+        script_path = 'Backend/Calculations/MLB/calculateTeam.py'
+        image_script_path = 'Backend/Scraped_Data/MLB/Photos/scrapeTeamLogo.py'
+        team_names_path = 'Backend/Names/MLB/Team_Names/teamCodes.json'
     else:
         return render_template('Bet_program2.html', result="Error: Invalid position")
     if module_name:

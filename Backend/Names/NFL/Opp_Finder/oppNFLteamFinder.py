@@ -1,11 +1,11 @@
 import json
 
-team_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/Team_Names/teamCodes.json'
-qb_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/QB_Names/qbNames.json'
-rb_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/RB_Names/rbNames.json'
-wr_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/WR_Names/wrNames.json'
-te_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/TE_Names/teNames.json'
-schedule_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Schedules/NFL/nflSchedule.json'
+team_names_path = 'Backend/Names/NFL/Team_Names/teamCodes.json'
+qb_names_path = 'Backend/Names/NFL/QB_Names/qbNames.json'
+rb_names_path = 'Backend/Names/NFL/RB_Names/rbNames.json'
+wr_names_path = 'Backend/Names/NFL/WR_Names/wrNames.json'
+te_names_path = 'Backend/Names/NFL/TE_Names/teNames.json'
+schedule_path = 'Backend/Schedules/NFL/nflSchedule.json'
 
 def find_team_url_from_player(player_name, position):
     if position == 'qb':

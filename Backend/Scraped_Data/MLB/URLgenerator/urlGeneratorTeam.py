@@ -1,6 +1,6 @@
 import json
 
-def load_team_codes(file_path='/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Team_Names/teamCodes.json'):
+def load_team_codes(file_path='Backend/Names/MLB/Team_Names/teamCodes.json'):
     with open(file_path, 'r') as file:
         team_codes = json.load(file)
     return team_codes

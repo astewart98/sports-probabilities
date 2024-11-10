@@ -30,7 +30,7 @@ def generate_url():
 
 @app.route('/static/data/<path:filename>')
 def serve_static_data(filename):
-    data_dir = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names'
+    data_dir = 'Backend/Names'
     return send_from_directory(data_dir, filename)
 
 if __name__ == '__main__':

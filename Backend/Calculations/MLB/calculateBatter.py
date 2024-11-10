@@ -5,8 +5,8 @@ import math
 import json
 
 def calculate_batter_data(primary_full_url, opp_full_url, over_under, percent_threshold, opp_pitcher_hits_threshold, batter_min_game_threshold, pitcher_min_game_threshold):
-    script_path_batter_hits = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Batters/scrapeBatterHits.py'
-    script_path_pitcher_hits = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
+    script_path_batter_hits = 'Backend/Scraped_Data/MLB/Batters/scrapeBatterHits.py'
+    script_path_pitcher_hits = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
 
     result_batter_hits, result_pitcher_hits = [], []
 

@@ -4,10 +4,10 @@ import requests
 import string
 from bs4 import BeautifulSoup
 
-qb_names_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/QB_Names/qbNames.py'
-rb_names_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/RB_Names/rbNames.py'
-wr_names_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/WR_Names/wrNames.py'
-te_names_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/TE_Names/teNames.py'
+qb_names_script = 'Backend/Names/NFL/QB_Names/qbNames.py'
+rb_names_script = 'Backend/Names/NFL/RB_Names/rbNames.py'
+wr_names_script = 'Backend/Names/NFL/WR_Names/wrNames.py'
+te_names_script = 'Backend/Names/NFL/TE_Names/teNames.py'
 
 # Removes suffixes
 def remove_suffix(name):

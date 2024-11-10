@@ -3,7 +3,7 @@ import requests
 import json
 import sys
 
-file_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/RB_Names/rbNames.json'
+file_path = 'Backend/Names/NFL/RB_Names/rbNames.json'
 
 year = sys.argv[1]
 url = f'https://www.fantasypros.com/nfl/stats/rb.php?year={year}'

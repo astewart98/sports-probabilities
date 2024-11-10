@@ -1,8 +1,8 @@
 import json
 
-team_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Team_Names/teamCodes.json'
-pitcher_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Pitcher_Names/pitcherNames.json'
-schedule_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Schedules/MLB/mlbSchedule.json'
+team_names_path = 'Backend/Names/MLB/Team_Names/teamCodes.json'
+pitcher_names_path = 'Backend/Names/MLB/Pitcher_Names/pitcherNames.json'
+schedule_path = 'Backend/Schedules/MLB/mlbSchedule.json'
 
 def find_team_url_from_pitcher(pitcher_name):
     with open(pitcher_names_path, 'r') as f:

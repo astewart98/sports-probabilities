@@ -5,12 +5,12 @@ import math
 import json
 
 def calculate_qb_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_qb_pass_tds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/QB/scrapeQBpassTDs.py'
-    script_path_qb_pass_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/QB/scrapeQBpassYards.py'
-    script_path_qb_rush_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/QB/scrapeQBrushYards.py'
-    script_path_team_pass_tds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamPassTDs.py'
-    script_path_team_pass_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
-    script_path_team_rush_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
+    script_path_qb_pass_tds = 'Backend/Scraped_Data/NFL/QB/scrapeQBpassTDs.py'
+    script_path_qb_pass_yds = 'Backend/Scraped_Data/NFL/QB/scrapeQBpassYards.py'
+    script_path_qb_rush_yds = 'Backend/Scraped_Data/NFL/QB/scrapeQBrushYards.py'
+    script_path_team_pass_tds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassTDs.py'
+    script_path_team_pass_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+    script_path_team_rush_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
 
     result_qb_pass_tds, result_qb_pass_yds, result_qb_rush_yds, result_team_pass_tds, result_team_pass_yds, result_team_rush_yds = [], [], [], [], [], []
 

@@ -5,8 +5,8 @@ import math
 import json
 
 def calculate_team_data(primary_full_url, opp_full_url, over_under, percent_threshold, team_min_game_threshold):
-    script_path_team_runs = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Teams/scrapeTeamRuns.py'
-    script_path_team_RA = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Teams/scrapeTeamRA.py'
+    script_path_team_runs = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamRuns.py'
+    script_path_team_RA = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamRA.py'
 
     result_team_runs, result_team_RA, result_opp_team_runs, result_opp_team_RA = [], [], [], []
 

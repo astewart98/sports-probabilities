@@ -9,12 +9,12 @@ import base64
 nfl_bp = Blueprint('nfl_bp', __name__, url_prefix='/nfl')
 
 # Extract todays schedule
-nfl_schedule_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Schedules/nfl/nflSchedule.py'
+nfl_schedule_script = 'Backend/Schedules/nfl/nflSchedule.py'
 subprocess.run(['python3', nfl_schedule_script])
 
-sys.path.append('/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/Opp_Finder')
+sys.path.append('Backend/Names/NFL/Opp_Finder')
 from oppNFLteamFinder import find_opposing_team
-sys.path.append('/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/_URLgenerator')
+sys.path.append('Backend/Scraped_Data/NFL/_URLgenerator')
 from urlGeneratorNFLplayer import generate_nfl_player_url
 from urlGeneratorNFLteam import generate_team_url
 
@@ -40,21 +40,21 @@ def handle_nfl_logic(request):
     game_threshold = form_data['game_threshold']
 
     if position == 'qb':
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/NFL/calculateQB.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
+        script_path = 'Backend/Calculations/NFL/calculateQB.py'
+        image_script_path = 'Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
     elif position == 'rb':
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/NFL/calculateRB.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
+        script_path = 'Backend/Calculations/NFL/calculateRB.py'
+        image_script_path = 'Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
     elif position == 'team':
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/NFL/calculateTeam.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/_Photos/scrapeTeamLogo.py'
-        team_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/NFL/Team_Names/teamCodes.json'
+        script_path = 'Backend/Calculations/NFL/calculateTeam.py'
+        image_script_path = 'Backend/Scraped_Data/NFL/_Photos/scrapeTeamLogo.py'
+        team_names_path = 'Backend/Names/NFL/Team_Names/teamCodes.json'
     elif position == 'te':
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/NFL/calculateTEWR.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
+        script_path = 'Backend/Calculations/NFL/calculateTEWR.py'
+        image_script_path = 'Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
     elif position == 'wr':
-        script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Calculations/NFL/calculateTEWR.py'
-        image_script_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
+        script_path = 'Backend/Calculations/NFL/calculateTEWR.py'
+        image_script_path = 'Backend/Scraped_Data/NFL/_Photos/scrapePlayerPhoto.py'
     else:
         return render_template('Bet_program2.html', result="Error: Invalid position")
     

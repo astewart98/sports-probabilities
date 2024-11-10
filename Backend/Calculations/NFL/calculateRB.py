@@ -5,12 +5,12 @@ import math
 import json
 
 def calculate_rb_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_rb_rush_att = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/RB/scrapeRBrushAttempts.py'
-    script_path_rb_rec_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/RB/scrapeRBrecYards.py'
-    script_path_rb_rush_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/RB/scrapeRBrushYards.py'
-    script_path_team_rush_att = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamRushAttempts.py'
-    script_path_team_rec_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
-    script_path_team_rush_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
+    script_path_rb_rush_att = 'Backend/Scraped_Data/NFL/RB/scrapeRBrushAttempts.py'
+    script_path_rb_rec_yds = 'Backend/Scraped_Data/NFL/RB/scrapeRBrecYards.py'
+    script_path_rb_rush_yds = 'Backend/Scraped_Data/NFL/RB/scrapeRBrushYards.py'
+    script_path_team_rush_att = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamRushAttempts.py'
+    script_path_team_rec_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+    script_path_team_rush_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
 
     result_rb_rush_att, result_rb_rec_yds, result_rb_rush_yds, result_team_rush_att, result_team_rec_yds, result_team_rush_yds = [], [], [], [], [], []
 

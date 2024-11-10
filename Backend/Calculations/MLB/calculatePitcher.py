@@ -5,13 +5,13 @@ import math
 import json
 
 def calculate_pitcher_data(primary_full_url, opp_full_url, over_under, percent_threshold, pitcher_min_game_threshold, team_min_game_threshold):
-    script_path_pitcher_IP = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Pitchers/scrapePitcherIP.py'
-    script_path_pitcher_SO = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Pitchers/scrapePitcherSO.py'
-    script_path_pitcher_hits = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
-    script_path_pitcher_walks = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Pitchers/scrapePitcherWalksAllowed.py'
-    script_path_team_SO = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Teams/scrapeTeamSO.py'
-    script_path_team_hits = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Teams/scrapeTeamHits.py'
-    script_path_team_walks = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/MLB/Teams/scrapeTeamWalks.py'
+    script_path_pitcher_IP = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherIP.py'
+    script_path_pitcher_SO = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherSO.py'
+    script_path_pitcher_hits = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
+    script_path_pitcher_walks = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherWalksAllowed.py'
+    script_path_team_SO = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamSO.py'
+    script_path_team_hits = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamHits.py'
+    script_path_team_walks = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamWalks.py'
 
     result_pitcher_IP, result_pitcher_SO, result_pitcher_hits, result_pitcher_walks, result_team_SO, result_team_hits, result_team_walks = [], [], [], [], [], [], []
 

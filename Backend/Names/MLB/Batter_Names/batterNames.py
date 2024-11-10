@@ -3,7 +3,7 @@ import requests
 import json
 import sys
 
-file_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Batter_Names/batterNames.json'
+file_path = 'Backend/Names/MLB/Batter_Names/batterNames.json'
 
 year = sys.argv[1]
 url = f'https://www.fantasypros.com/mlb/stats/hitters.php?range={year}&page=ALL'

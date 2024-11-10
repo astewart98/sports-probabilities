@@ -1,7 +1,7 @@
 import json
 
-batter_names_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Batter_Names/batterNames.json'
-schedule_path = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Schedules/MLB/mlbSchedule.json'
+batter_names_path = 'Backend/Names/MLB/Batter_Names/batterNames.json'
+schedule_path = 'Backend/Schedules/MLB/mlbSchedule.json'
 
 def find_opposing_pitcher(player_name):
     with open(batter_names_path, 'r') as f:

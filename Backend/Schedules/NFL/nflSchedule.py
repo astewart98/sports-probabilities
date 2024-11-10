@@ -2,7 +2,7 @@ import json
 from bs4 import BeautifulSoup
 import requests
 
-def update_schedule(file_path='/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Schedules/NFL/nflSchedule.json'):
+def update_schedule(file_path='Backend/Schedules/NFL/nflSchedule.json'):
     """
     Fetch the MLB schedule, extract team and pitcher information, and save it to a JSON file.
     

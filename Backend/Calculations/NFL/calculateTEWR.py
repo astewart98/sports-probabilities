@@ -5,10 +5,10 @@ import math
 import json
 
 def calculate_te_wr_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_te_wr_receptions = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/TE_WR/scrapeTEWRreceptions.py'
-    script_path_te_wr_rec_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/TE_WR/scrapeTEWRrecYards.py'
-    script_path_team_receptions = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamReceptions.py'
-    script_path_team_rec_yds = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+    script_path_te_wr_receptions = 'Backend/Scraped_Data/NFL/TE_WR/scrapeTEWRreceptions.py'
+    script_path_te_wr_rec_yds = 'Backend/Scraped_Data/NFL/TE_WR/scrapeTEWRrecYards.py'
+    script_path_team_receptions = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamReceptions.py'
+    script_path_team_rec_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
 
     result_te_wr_receptions, result_te_wr_rec_yds, result_team_receptions, result_team_rec_yds = [], [], [], []
 

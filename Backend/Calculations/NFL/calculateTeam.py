@@ -5,8 +5,8 @@ import math
 import json
 
 def calculate_team_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_team_points_for = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamPointsFor.py'
-    script_path_team_points_against = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Scraped_Data/NFL/Teams/scrapeTeamPointsAgainst.py'
+    script_path_team_points_for = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPointsFor.py'
+    script_path_team_points_against = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPointsAgainst.py'
 
     result_team_points_for, result_team_points_against, result_opp_team_points_for, result_opp_team_points_against = [], [], [], []
 

@@ -4,8 +4,8 @@ import requests
 import string
 from bs4 import BeautifulSoup
 
-batter_names_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Batter_Names/batterNames.py'
-pitcher_names_script = '/Users/astewart9841/Desktop/Coding/Bet_Project/Backend/Names/MLB/Pitcher_Names/pitcherNames.py'
+batter_names_script = 'Backend/Names/MLB/Batter_Names/batterNames.py'
+pitcher_names_script = 'Backend/Names/MLB/Pitcher_Names/pitcherNames.py'
 
 # Checks URL for table (meaning correct player found)
 def check_url_for_table(full_url):
