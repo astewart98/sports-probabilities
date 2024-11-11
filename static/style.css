@@ -32,7 +32,7 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 720px;
+    height: 95vh;
     text-align: center;
     opacity: 0;
     transition: opacity .5s ease-in; 
@@ -134,8 +134,7 @@ input:not(.pristine):invalid:focus {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block; 
-    text-align: center; 
-    max-height: 480px;
+    text-align: center;
 }
 
 .loadingScreen {
