@@ -36,7 +36,7 @@ body, html {
     text-align: center;
     opacity: 0;
     transition: opacity .5s ease-in; 
-    padding: 0 20px;
+    padding: 20px 20px 0 20px
 }
 
 .wrapper.visible {
