@@ -20,15 +20,18 @@
                     <label for="league">Choose a League:</label>
                     <div class="radio-wrapper">
                         <div class="radio-container" style="gap: 40px;">
-                            <input type="radio" id="league_mlb" name="league" value="MLB" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();">
-                            <label for="league_mlb" class="radio-label-mlb">
-                                <img src="https://res.cloudinary.com/jerrick/image/upload/v1646976165/622adca5feade9001f02da72.png" alt="MLB Logo" style="width: 165px; height: auto; clip-path: inset(0px 25px 0px 25px); margin-left: -25px; margin-right: -25px;">
-                            </label>
+                            <div class="radio-wrapper">
+                                <input type="radio" id="league_mlb" name="league" value="MLB" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();" disabled>
+                                <label for="league_mlb" class="radio-label-mlb">
+                                    <img src="https://res.cloudinary.com/jerrick/image/upload/v1646976165/622adca5feade9001f02da72.png" alt="MLB Logo" style="width: 165px; height: auto; clip-path: inset(0px 25px 0px 25px); margin-left: -25px; margin-right: -25px;">
+                                </label>
+                                <span class="tooltip">MLB season is over. Please choose a different league</span>
+                            </div>
                             <input type="radio" id="league_nfl" name="league" value="NFL" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();">
                             <label for="league_nfl" class="radio-label-nfl">
                                 <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/National_Football_League_logo.svg" alt="NFL Logo" style="width: 100px; height: auto;">
                             </label>
-                        </div>                        
+                        </div>                                               
                     </div><br>
 
                     <div id="selection-container" class="selection-container">

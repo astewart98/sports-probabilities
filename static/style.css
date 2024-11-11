@@ -94,6 +94,33 @@ body, html {
     }
 }
 
+#league_mlb:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 220px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 90%;
+    left: 50%;
+    margin-left: -40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.radio-label-mlb:hover + .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
 label {
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -378,6 +405,7 @@ button[type="submit"].disabled {
     justify-content: center;
     gap: 50px;
     margin-top: 10px;
+    position: relative;
 }
 
 .radio-container {
