@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, render_template, send_from_directory
 from Logic.mlb_app import handle_mlb_logic
 from Logic.nfl_app import handle_nfl_logic
@@ -34,4 +35,6 @@ def serve_static_data(filename):
     return send_from_directory(data_dir, filename)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # Listen on the PORT environment variable for Cloud Run
+    port = int(os.environ.get('PORT', 5000))  # Defaults to 5000 if PORT is not set
+    app.run(host='0.0.0.0', port=port, debug=True)
