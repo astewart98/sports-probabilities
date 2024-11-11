@@ -1,12 +1,12 @@
 body, button {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    overflow-x: auto;
 }
 
 body, html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
     overflow: auto;
 }
 
@@ -32,10 +32,11 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 720px;
     text-align: center;
     opacity: 0;
     transition: opacity .5s ease-in; 
+    padding: 0 20px;
 }
 
 .wrapper.visible {
@@ -44,6 +45,53 @@ body, html {
 
 .wrapper.fade-out {
     opacity: 0;
+}
+
+@media (max-width: 500px) { 
+    .container {
+        width: 80vw !important;
+    }
+
+    .wrapper h1 {
+        line-height: 35px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .loadingScreen h1,
+    #submitLoadingScreen h1 {
+        line-height: 45px !important;
+        font-size: 40px !important;
+    }
+
+    .radio-wrapper {
+        display: grid !important;
+        gap: 20px !important;
+    }
+
+    .player-image {
+        width: 100px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    .container1 {
+        width: 290px !important;
+    }
+
+    #submitLoadingScreen p {
+        font-size: 20px;
+    }
+
+    .loadingScreen img,
+    #submitLoadingScreen img {
+        max-height: 45px !important;
+        clip-path: inset(5px 19px 7px 16px) !important;
+        margin-left: -11px !important;
+        margin-right: -21px !important;
+    }
 }
 
 label {
@@ -87,6 +135,7 @@ input:not(.pristine):invalid:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block; 
     text-align: center; 
+    max-height: 480px;
 }
 
 .loadingScreen {
@@ -131,8 +180,11 @@ input:not(.pristine):invalid:focus {
 
 .loadingScreen h1 {
     font-size: 50px;
+    line-height: 60px;
     font-style: italic;
     color: black;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #submitLoadingScreen {
@@ -152,6 +204,8 @@ input:not(.pristine):invalid:focus {
 
 .loading-content {
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #submitLoadingScreen h1 {
@@ -159,6 +213,7 @@ input:not(.pristine):invalid:focus {
     font-style: italic;
     color: black;
     margin-bottom: 10px; 
+    line-height: 60px;
 }
 
 #submitLoadingScreen p {
@@ -281,7 +336,6 @@ button[type="submit"].disabled {
     display: flex;
     justify-content: center; 
     gap: 20px; 
-    padding-top: 20px; 
 }
 
 #toggle-advanced {
@@ -330,6 +384,7 @@ button[type="submit"].disabled {
 .radio-container {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 
 .radio-label {
@@ -448,7 +503,7 @@ input[type="radio"]:checked + .radio-label-mlb {
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ddd;
-    width: 100%;
+    width: 80%;
 }
 
 .result-box-na {
@@ -463,7 +518,7 @@ input[type="radio"]:checked + .radio-label-mlb {
     );
     background-attachment: fixed; 
     background-position: 0 0;
-    width: 100%;
+    width: 78%;
 }
 
 .result-box p {
