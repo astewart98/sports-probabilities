@@ -3,10 +3,16 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_team_data(primary_full_url, opp_full_url, over_under, percent_threshold, team_min_game_threshold):
-    script_path_team_runs = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamRuns.py'
-    script_path_team_RA = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamRA.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_team_runs = base_dir / '../../Scraped_Data/MLB/Teams/scrapeTeamRuns.py'
+    script_path_team_RA = base_dir / '../../Scraped_Data/MLB/Teams/scrapeTeamRA.py'
+
+    script_path_team_runs = str(script_path_team_runs)
+    script_path_team_RA = str(script_path_team_RA)
 
     result_team_runs, result_team_RA, result_opp_team_runs, result_opp_team_RA = [], [], [], []
 

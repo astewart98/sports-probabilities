@@ -3,14 +3,24 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_rb_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_rb_rush_att = 'Backend/Scraped_Data/NFL/RB/scrapeRBrushAttempts.py'
-    script_path_rb_rec_yds = 'Backend/Scraped_Data/NFL/RB/scrapeRBrecYards.py'
-    script_path_rb_rush_yds = 'Backend/Scraped_Data/NFL/RB/scrapeRBrushYards.py'
-    script_path_team_rush_att = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamRushAttempts.py'
-    script_path_team_rec_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
-    script_path_team_rush_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_rb_rush_att = base_dir / '../../Scraped_Data/NFL/RB/scrapeRBrushAttempts.py'
+    script_path_rb_rec_yds = base_dir / '../../Scraped_Data/NFL/RB/scrapeRBrecYards.py'
+    script_path_rb_rush_yds = base_dir / '../../Scraped_Data/NFL/RB/scrapeRBrushYards.py'
+    script_path_team_rush_att = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamRushAttempts.py'
+    script_path_team_rec_yds = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+    script_path_team_rush_yds = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
+
+    script_path_rb_rush_att = str(script_path_rb_rush_att)
+    script_path_rb_rec_yds = str(script_path_rb_rec_yds)
+    script_path_rb_rush_yds = str(script_path_rb_rush_yds)
+    script_path_team_rush_att = str(script_path_team_rush_att)
+    script_path_team_rec_yds = str(script_path_team_rec_yds)
+    script_path_team_rush_yds = str(script_path_team_rush_yds)
 
     result_rb_rush_att, result_rb_rec_yds, result_rb_rush_yds, result_team_rush_att, result_team_rec_yds, result_team_rush_yds = [], [], [], [], [], []
 
@@ -36,6 +46,9 @@ def calculate_rb_data(primary_full_url, opp_full_url, over_under, percent_thresh
         if result_team_rush_yds:
             result_team_rush_yds = ast.literal_eval(result_team_rush_yds)
 
+        # Change HTML percentage input to float and a decimal
+        percent_threshold = (float(percent_threshold)) / 100
+
         # Finds length of returned RB and team lists
         rb_rush_att_length = len(result_rb_rush_att)
         rb_rec_yds_length = len(result_rb_rec_yds)
@@ -50,9 +63,6 @@ def calculate_rb_data(primary_full_url, opp_full_url, over_under, percent_thresh
         rb_rush_att_index = int(rb_rush_att_length * percent_threshold)
         rb_rec_yds_index = int(rb_rec_yds_length * percent_threshold)
         rb_rush_yds_index = int(rb_rush_yds_length * percent_threshold)
-
-        # Change HTML percentage input to float and a decimal
-        percent_threshold = (float(percent_threshold)) / 100
 
         # Calculate Over probabilities for all stat categories
         if over_under == 'over':

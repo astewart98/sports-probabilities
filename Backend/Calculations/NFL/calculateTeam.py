@@ -3,10 +3,16 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_team_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_team_points_for = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPointsFor.py'
-    script_path_team_points_against = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPointsAgainst.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_team_points_for = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamPointsFor.py'
+    script_path_team_points_against = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamPointsAgainst.py'
+
+    script_path_team_points_for = str(script_path_team_points_for)
+    script_path_team_points_against = str(script_path_team_points_against)
 
     result_team_points_for, result_team_points_against, result_opp_team_points_for, result_opp_team_points_against = [], [], [], []
 
@@ -36,9 +42,7 @@ def calculate_team_data(primary_full_url, opp_full_url, over_under, percent_thre
         opp_team_points_for_length = len(result_opp_team_points_for)
         # Finding position number that is percent_threshold the way through the list (70% through list of 10 is the 7th position (0-9 #'s))
         opp_team_points_against_index = int(opp_team_points_against_length * percent_threshold)
-        opp_team_total_points_for_index = int(opp_team_total_length * percent_threshold)
         team_points_for_index = int(team_points_for_length * percent_threshold)
-        team_total_points_for_index = int(team_total_length * percent_threshold)
 
         # Calculate winner probabability (MONEYLINE)
 
@@ -193,6 +197,8 @@ def calculate_team_data(primary_full_url, opp_full_url, over_under, percent_thre
         opp_team_total_points_for_points_against = [points_for + ra for points_for, ra in zip(result_opp_team_points_for, result_opp_team_points_against)]
         opp_team_total_length = len(opp_team_total_points_for_points_against)
         team_total_length = len(team_total_points_for_points_against)
+        opp_team_total_points_for_index = int(opp_team_total_length * percent_threshold)
+        team_total_points_for_index = int(team_total_length * percent_threshold)
         if over_under == 'over':
 
             # Sorting list of opp team total points for (largest to smallest)

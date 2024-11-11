@@ -3,12 +3,20 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_te_wr_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_te_wr_receptions = 'Backend/Scraped_Data/NFL/TE_WR/scrapeTEWRreceptions.py'
-    script_path_te_wr_rec_yds = 'Backend/Scraped_Data/NFL/TE_WR/scrapeTEWRrecYards.py'
-    script_path_team_receptions = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamReceptions.py'
-    script_path_team_rec_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_te_wr_receptions = base_dir / '../../Scraped_Data/NFL/TE_WR/scrapeTEWRreceptions.py'
+    script_path_te_wr_rec_yds = base_dir / '../../Scraped_Data/NFL/TE_WR/scrapeTEWRrecYards.py'
+    script_path_team_receptions = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamReceptions.py'
+    script_path_team_rec_yds = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+
+    script_path_te_wr_receptions = str(script_path_te_wr_receptions)
+    script_path_te_wr_rec_yds = str(script_path_te_wr_rec_yds)
+    script_path_team_receptions = str(script_path_team_receptions)
+    script_path_team_rec_yds = str(script_path_team_rec_yds)
 
     result_te_wr_receptions, result_te_wr_rec_yds, result_team_receptions, result_team_rec_yds = [], [], [], []
 
@@ -16,7 +24,6 @@ def calculate_te_wr_data(primary_full_url, opp_full_url, over_under, percent_thr
     result_te_wr_rec_yds = subprocess.run(['python3', script_path_te_wr_rec_yds, primary_full_url, game_threshold], capture_output=True, text=True).stdout.strip()
     result_team_receptions = subprocess.run(['python3', script_path_team_receptions, opp_full_url, game_threshold], capture_output=True, text=True).stdout.strip()
     result_team_rec_yds = subprocess.run(['python3', script_path_team_rec_yds, opp_full_url, game_threshold], capture_output=True, text=True).stdout.strip()
-    
 
     # Convert results to lists
     try:
@@ -29,6 +36,9 @@ def calculate_te_wr_data(primary_full_url, opp_full_url, over_under, percent_thr
         if result_team_rec_yds:
             result_team_rec_yds = ast.literal_eval(result_team_rec_yds)
 
+        # Change HTML percentage input to float and a decimal
+        percent_threshold = (float(percent_threshold)) / 100
+
         # Finds length of returned TE/WR and team lists
         te_wr_receptions_length = len(result_te_wr_receptions)
         te_wr_rec_yds_length = len(result_te_wr_rec_yds)
@@ -39,9 +49,6 @@ def calculate_te_wr_data(primary_full_url, opp_full_url, over_under, percent_thr
         team_rec_yds_index = int(team_rec_yds_length * percent_threshold)
         te_wr_receptions_index = int(te_wr_receptions_length * percent_threshold)
         te_wr_rec_yds_index = int(te_wr_rec_yds_length * percent_threshold)
-
-        # Change HTML percentage input to float and a decimal
-        percent_threshold = (float(percent_threshold)) / 100
 
         # Calculate Over probabilities for all stat categories
         if over_under == 'over':

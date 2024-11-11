@@ -3,15 +3,26 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_pitcher_data(primary_full_url, opp_full_url, over_under, percent_threshold, pitcher_min_game_threshold, team_min_game_threshold):
-    script_path_pitcher_IP = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherIP.py'
-    script_path_pitcher_SO = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherSO.py'
-    script_path_pitcher_hits = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
-    script_path_pitcher_walks = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherWalksAllowed.py'
-    script_path_team_SO = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamSO.py'
-    script_path_team_hits = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamHits.py'
-    script_path_team_walks = 'Backend/Scraped_Data/MLB/Teams/scrapeTeamWalks.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_pitcher_IP = base_dir / '../../Scraped_Data/MLB/Pitchers/scrapePitcherIP.py'
+    script_path_pitcher_SO = base_dir / '../../Scraped_Data/MLB/Pitchers/scrapePitcherSO.py'
+    script_path_pitcher_hits = base_dir / '../../Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
+    script_path_pitcher_walks = base_dir / '../../Scraped_Data/MLB/Pitchers/scrapePitcherWalksAllowed.py'
+    script_path_team_SO = base_dir / '../../Scraped_Data/MLB/Teams/scrapeTeamSO.py'
+    script_path_team_hits = base_dir / '../../Scraped_Data/MLB/Teams/scrapeTeamHits.py'
+    script_path_team_walks = base_dir / '../../Scraped_Data/MLB/Teams/scrapeTeamWalks.py'
+
+    script_path_pitcher_IP = str(script_path_pitcher_IP)
+    script_path_pitcher_SO = str(script_path_pitcher_SO)
+    script_path_pitcher_hits = str(script_path_pitcher_hits)
+    script_path_pitcher_walks = str(script_path_pitcher_walks)
+    script_path_team_SO = str(script_path_team_SO)
+    script_path_team_hits = str(script_path_team_hits)
+    script_path_team_walks = str(script_path_team_walks)
 
     result_pitcher_IP, result_pitcher_SO, result_pitcher_hits, result_pitcher_walks, result_team_SO, result_team_hits, result_team_walks = [], [], [], [], [], [], []
 

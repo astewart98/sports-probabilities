@@ -12,36 +12,28 @@
         "player_team": "NO"
     },
     {
-        "player_name": "Jahmyr Gibbs",
-        "player_team": "DET"
-    },
-    {
-        "player_name": "Kyren Williams",
-        "player_team": "LAR"
-    },
-    {
         "player_name": "Bijan Robinson",
         "player_team": "ATL"
     },
     {
-        "player_name": "James Cook",
-        "player_team": "BUF"
-    },
-    {
-        "player_name": "Joe Mixon",
-        "player_team": "HOU"
+        "player_name": "Jahmyr Gibbs",
+        "player_team": "DET"
     },
     {
         "player_name": "Chuba Hubbard",
         "player_team": "CAR"
     },
     {
-        "player_name": "Josh Jacobs",
-        "player_team": "GB"
+        "player_name": "Kyren Williams",
+        "player_team": "LAR"
     },
     {
-        "player_name": "Chase Brown",
-        "player_team": "CIN"
+        "player_name": "Joe Mixon",
+        "player_team": "HOU"
+    },
+    {
+        "player_name": "James Cook",
+        "player_team": "BUF"
     },
     {
         "player_name": "James Conner",
@@ -60,20 +52,32 @@
         "player_team": "NYJ"
     },
     {
-        "player_name": "Kenneth Walker III",
-        "player_team": "SEA"
+        "player_name": "Josh Jacobs",
+        "player_team": "GB"
     },
     {
-        "player_name": "De'Von Achane",
-        "player_team": "MIA"
+        "player_name": "Chase Brown",
+        "player_team": "CIN"
+    },
+    {
+        "player_name": "Aaron Jones",
+        "player_team": "MIN"
     },
     {
         "player_name": "D'Andre Swift",
         "player_team": "CHI"
     },
     {
-        "player_name": "Aaron Jones",
-        "player_team": "MIN"
+        "player_name": "Kenneth Walker III",
+        "player_team": "SEA"
+    },
+    {
+        "player_name": "Jonathan Taylor",
+        "player_team": "IND"
+    },
+    {
+        "player_name": "De'Von Achane",
+        "player_team": "MIA"
     },
     {
         "player_name": "Rhamondre Stevenson",
@@ -84,40 +88,48 @@
         "player_team": "TEN"
     },
     {
-        "player_name": "Jordan Mason",
-        "player_team": "SF"
-    },
-    {
-        "player_name": "Jonathan Taylor",
-        "player_team": "IND"
-    },
-    {
-        "player_name": "Brian Robinson Jr.",
-        "player_team": "WAS"
-    },
-    {
         "player_name": "Najee Harris",
         "player_team": "PIT"
     },
     {
-        "player_name": "Tank Bigsby",
-        "player_team": "JAC"
-    },
-    {
-        "player_name": "Kareem Hunt",
-        "player_team": "KC"
-    },
-    {
-        "player_name": "Alexander Mattison",
-        "player_team": "LV"
+        "player_name": "Jordan Mason",
+        "player_team": "SF"
     },
     {
         "player_name": "Bucky Irving",
         "player_team": "TB"
     },
     {
+        "player_name": "Brian Robinson Jr.",
+        "player_team": "WAS"
+    },
+    {
         "player_name": "Rachaad White",
         "player_team": "TB"
+    },
+    {
+        "player_name": "Kareem Hunt",
+        "player_team": "KC"
+    },
+    {
+        "player_name": "Tyrone Tracy Jr.",
+        "player_team": "NYG"
+    },
+    {
+        "player_name": "Austin Ekeler",
+        "player_team": "WAS"
+    },
+    {
+        "player_name": "Tank Bigsby",
+        "player_team": "JAC"
+    },
+    {
+        "player_name": "Alexander Mattison",
+        "player_team": "LV"
+    },
+    {
+        "player_name": "Rico Dowdle",
+        "player_team": "DAL"
     },
     {
         "player_name": "Zach Charbonnet",
@@ -128,16 +140,8 @@
         "player_team": "DEN"
     },
     {
-        "player_name": "Tyrone Tracy Jr.",
-        "player_team": "NYG"
-    },
-    {
-        "player_name": "Rico Dowdle",
-        "player_team": "DAL"
-    },
-    {
-        "player_name": "Austin Ekeler",
-        "player_team": "WAS"
+        "player_name": "Tyler Allgeier",
+        "player_team": "ATL"
     },
     {
         "player_name": "Ray Davis",
@@ -148,24 +152,28 @@
         "player_team": "CIN"
     },
     {
-        "player_name": "Tyler Allgeier",
-        "player_team": "ATL"
-    },
-    {
         "player_name": "Justice Hill",
         "player_team": "BAL"
-    },
-    {
-        "player_name": "Travis Etienne Jr.",
-        "player_team": "JAC"
     },
     {
         "player_name": "Devin Singletary",
         "player_team": "NYG"
     },
     {
+        "player_name": "Travis Etienne Jr.",
+        "player_team": "JAC"
+    },
+    {
         "player_name": "Braelon Allen",
         "player_team": "NYJ"
+    },
+    {
+        "player_name": "Jeremy McNichols",
+        "player_team": "WAS"
+    },
+    {
+        "player_name": "Jaleel McLaughlin",
+        "player_team": "DEN"
     },
     {
         "player_name": "Emanuel Wilson",
@@ -176,10 +184,6 @@
         "player_team": "CLE"
     },
     {
-        "player_name": "Jaleel McLaughlin",
-        "player_team": "DEN"
-    },
-    {
         "player_name": "Roschon Johnson",
         "player_team": "CHI"
     },
@@ -188,23 +192,31 @@
         "player_team": "TB"
     },
     {
-        "player_name": "Jeremy McNichols",
-        "player_team": "WAS"
-    },
-    {
         "player_name": "Antonio Gibson",
         "player_team": "NE"
-    },
-    {
-        "player_name": "Raheem Mostert",
-        "player_team": "MIA"
     },
     {
         "player_name": "Ty Johnson",
         "player_team": "BUF"
     },
     {
+        "player_name": "Raheem Mostert",
+        "player_team": "MIA"
+    },
+    {
+        "player_name": "Cam Akers",
+        "player_team": "MIN"
+    },
+    {
         "player_name": "Emari Demercado",
+        "player_team": "ARI"
+    },
+    {
+        "player_name": "Samaje Perine",
+        "player_team": "KC"
+    },
+    {
+        "player_name": "Trey Benson",
         "player_team": "ARI"
     },
     {
@@ -212,20 +224,24 @@
         "player_team": "IND"
     },
     {
-        "player_name": "Cam Akers",
-        "player_team": "MIN"
-    },
-    {
         "player_name": "Ezekiel Elliott",
         "player_team": "DAL"
     },
     {
-        "player_name": "Samaje Perine",
-        "player_team": "KC"
+        "player_name": "Tyler Goodson",
+        "player_team": "IND"
+    },
+    {
+        "player_name": "Tyjae Spears",
+        "player_team": "TEN"
     },
     {
         "player_name": "Miles Sanders",
         "player_team": "CAR"
+    },
+    {
+        "player_name": "Jaylen Warren",
+        "player_team": "PIT"
     },
     {
         "player_name": "Isaac Guerendo",
@@ -236,28 +252,16 @@
         "player_team": "HOU"
     },
     {
-        "player_name": "Tyjae Spears",
-        "player_team": "TEN"
-    },
-    {
         "player_name": "Isiah Pacheco",
         "player_team": "KC"
-    },
-    {
-        "player_name": "Trey Benson",
-        "player_team": "ARI"
-    },
-    {
-        "player_name": "Tyler Goodson",
-        "player_team": "IND"
     },
     {
         "player_name": "Zamir White",
         "player_team": "LV"
     },
     {
-        "player_name": "Jaylen Warren",
-        "player_team": "PIT"
+        "player_name": "Ty Chandler",
+        "player_team": "MIN"
     },
     {
         "player_name": "Jaylen Wright",
@@ -272,8 +276,8 @@
         "player_team": "CLE"
     },
     {
-        "player_name": "Ty Chandler",
-        "player_team": "MIN"
+        "player_name": "Kenneth Gainwell",
+        "player_team": "PHI"
     },
     {
         "player_name": "D'Ernest Johnson",
@@ -292,20 +296,20 @@
         "player_team": "SF"
     },
     {
+        "player_name": "JaMycal Hasty",
+        "player_team": "NE"
+    },
+    {
+        "player_name": "Gus Edwards",
+        "player_team": "LAC"
+    },
+    {
         "player_name": "Dameon Pierce",
         "player_team": "HOU"
     },
     {
-        "player_name": "Kenneth Gainwell",
-        "player_team": "PHI"
-    },
-    {
         "player_name": "Kimani Vidal",
         "player_team": "LAC"
-    },
-    {
-        "player_name": "JaMycal Hasty",
-        "player_team": "NE"
     },
     {
         "player_name": "Pierre Strong Jr.",
@@ -316,16 +320,16 @@
         "player_team": "PIT"
     },
     {
+        "player_name": "Audric Estime",
+        "player_team": "DEN"
+    },
+    {
         "player_name": "Patrick Ricard",
         "player_team": "BAL"
     },
     {
         "player_name": "Carson Steele",
         "player_team": "KC"
-    },
-    {
-        "player_name": "Gus Edwards",
-        "player_team": "LAC"
     },
     {
         "player_name": "Hunter Luepke",
@@ -336,12 +340,24 @@
         "player_team": "MIA"
     },
     {
+        "player_name": "Christian McCaffrey",
+        "player_team": "SF"
+    },
+    {
         "player_name": "Blake Corum",
         "player_team": "LAR"
     },
     {
+        "player_name": "Hassan Haskins",
+        "player_team": "LAC"
+    },
+    {
         "player_name": "Chris Brooks",
         "player_team": "GB"
+    },
+    {
+        "player_name": "Jordan Mims",
+        "player_team": "NO"
     },
     {
         "player_name": "Julius Chestnut",
@@ -352,24 +368,20 @@
         "player_team": "CIN"
     },
     {
-        "player_name": "Audric Estime",
-        "player_team": "DEN"
-    },
-    {
-        "player_name": "Jordan Mims",
-        "player_team": "NO"
+        "player_name": "DeeJay Dallas",
+        "player_team": "ARI"
     },
     {
         "player_name": "Tyler Badie",
         "player_team": "DEN"
     },
     {
-        "player_name": "DeeJay Dallas",
-        "player_team": "ARI"
-    },
-    {
         "player_name": "C.J. Ham",
         "player_team": "MIN"
+    },
+    {
+        "player_name": "Chris Rodriguez Jr.",
+        "player_team": "WAS"
     },
     {
         "player_name": "Eric Gray",
@@ -380,16 +392,16 @@
         "player_team": "NO"
     },
     {
-        "player_name": "Chris Rodriguez Jr.",
-        "player_team": "WAS"
-    },
-    {
         "player_name": "Jeff Wilson Jr.",
         "player_team": "MIA"
     },
     {
         "player_name": "Ronnie Rivers",
         "player_team": "LAR"
+    },
+    {
+        "player_name": "Will Shipley",
+        "player_team": "PHI"
     },
     {
         "player_name": "J.J. Taylor",
@@ -412,11 +424,11 @@
         "player_team": "DAL"
     },
     {
-        "player_name": "Craig Reynolds",
-        "player_team": "DET"
+        "player_name": "Isaiah Davis",
+        "player_team": "NYJ"
     },
     {
-        "player_name": "Sione Vaki",
+        "player_name": "Craig Reynolds",
         "player_team": "DET"
     },
     {
@@ -424,12 +436,8 @@
         "player_team": "FA"
     },
     {
-        "player_name": "Isaiah Davis",
-        "player_team": "NYJ"
-    },
-    {
-        "player_name": "Hassan Haskins",
-        "player_team": "LAC"
+        "player_name": "Sione Vaki",
+        "player_team": "DET"
     },
     {
         "player_name": "MarShawn Lloyd",
@@ -454,10 +462,6 @@
     {
         "player_name": "Terrell Jennings",
         "player_team": "NE"
-    },
-    {
-        "player_name": "Will Shipley",
-        "player_team": "PHI"
     },
     {
         "player_name": "Tyreik McAllister",
@@ -488,10 +492,6 @@
         "player_team": "GB"
     },
     {
-        "player_name": "Salvon Ahmed",
-        "player_team": "IND"
-    },
-    {
         "player_name": "Ke'Shawn Vaughn",
         "player_team": "SF"
     },
@@ -502,6 +502,10 @@
     {
         "player_name": "Clyde Edwards-Helaire",
         "player_team": "KC"
+    },
+    {
+        "player_name": "Salvon Ahmed",
+        "player_team": "IND"
     },
     {
         "player_name": "Mike Weber",
@@ -516,11 +520,11 @@
         "player_team": "FA"
     },
     {
-        "player_name": "Andrew Beck",
+        "player_name": "Jakob Johnson",
         "player_team": "FA"
     },
     {
-        "player_name": "Jakob Johnson",
+        "player_name": "Andrew Beck",
         "player_team": "FA"
     },
     {
@@ -770,10 +774,6 @@
     {
         "player_name": "Taquan Mizzell",
         "player_team": "NYG"
-    },
-    {
-        "player_name": "Christian McCaffrey",
-        "player_team": "SF"
     },
     {
         "player_name": "Nyheim Hines",

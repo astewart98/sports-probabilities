@@ -3,14 +3,24 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_qb_data(primary_full_url, opp_full_url, over_under, percent_threshold, game_threshold):
-    script_path_qb_pass_tds = 'Backend/Scraped_Data/NFL/QB/scrapeQBpassTDs.py'
-    script_path_qb_pass_yds = 'Backend/Scraped_Data/NFL/QB/scrapeQBpassYards.py'
-    script_path_qb_rush_yds = 'Backend/Scraped_Data/NFL/QB/scrapeQBrushYards.py'
-    script_path_team_pass_tds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassTDs.py'
-    script_path_team_pass_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
-    script_path_team_rush_yds = 'Backend/Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_qb_pass_tds = base_dir / '../../Scraped_Data/NFL/QB/scrapeQBpassTDs.py'
+    script_path_qb_pass_yds = base_dir / '../../Scraped_Data/NFL/QB/scrapeQBpassYards.py'
+    script_path_qb_rush_yds = base_dir / '../../Scraped_Data/NFL/QB/scrapeQBrushYards.py'
+    script_path_team_pass_tds = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamPassTDs.py'
+    script_path_team_pass_yds = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamPassYds.py'
+    script_path_team_rush_yds = base_dir / '../../Scraped_Data/NFL/Teams/scrapeTeamRushYds.py'
+
+    script_path_qb_pass_tds = str(script_path_qb_pass_tds)
+    script_path_qb_pass_yds = str(script_path_qb_pass_yds)
+    script_path_qb_rush_yds = str(script_path_qb_rush_yds)
+    script_path_team_pass_tds = str(script_path_team_pass_tds)
+    script_path_team_pass_yds = str(script_path_team_pass_yds)
+    script_path_team_rush_yds = str(script_path_team_rush_yds)
 
     result_qb_pass_tds, result_qb_pass_yds, result_qb_rush_yds, result_team_pass_tds, result_team_pass_yds, result_team_rush_yds = [], [], [], [], [], []
 
@@ -36,6 +46,9 @@ def calculate_qb_data(primary_full_url, opp_full_url, over_under, percent_thresh
         if result_team_rush_yds:
             result_team_rush_yds = ast.literal_eval(result_team_rush_yds)
 
+        # Change HTML percentage input to float and a decimal
+        percent_threshold = (float(percent_threshold)) / 100
+
         # Finds length of returned QB and team lists
         qb_pass_tds_length = len(result_qb_pass_tds)
         qb_pass_yds_length = len(result_qb_pass_yds)
@@ -50,9 +63,6 @@ def calculate_qb_data(primary_full_url, opp_full_url, over_under, percent_thresh
         qb_pass_tds_index = int(qb_pass_tds_length * percent_threshold)
         qb_pass_yds_index = int(qb_pass_yds_length * percent_threshold)
         qb_rush_yds_index = int(qb_rush_yds_length * percent_threshold)
-
-        # Change HTML percentage input to float and a decimal
-        percent_threshold = (float(percent_threshold)) / 100
 
         # Calculate Over probabilities for all stat categories
         if over_under == 'over':

@@ -105,6 +105,8 @@ def handle_nfl_logic(request):
             capture_output=True,
             text=True
         ).stdout
+        print(team_full_url)
+        print(opp_team_full_url)
     elif position == 'te':
         te_full_url = generate_nfl_player_url(player_name, year, position)
         opp_player_name = find_opposing_team(player_name, position)

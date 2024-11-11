@@ -3,10 +3,16 @@ import ast
 import sys
 import math
 import json
+from pathlib import Path
 
 def calculate_batter_data(primary_full_url, opp_full_url, over_under, percent_threshold, opp_pitcher_hits_threshold, batter_min_game_threshold, pitcher_min_game_threshold):
-    script_path_batter_hits = 'Backend/Scraped_Data/MLB/Batters/scrapeBatterHits.py'
-    script_path_pitcher_hits = 'Backend/Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
+    base_dir = Path(__file__).resolve().parent
+
+    script_path_batter_hits = base_dir / '../../Scraped_Data/MLB/Batters/scrapeBatterHits.py'
+    script_path_pitcher_hits = base_dir / '../../Scraped_Data/MLB/Pitchers/scrapePitcherHitsAllowed.py'
+
+    script_path_batter_hits = str(script_path_batter_hits)
+    script_path_pitcher_hits = str(script_path_pitcher_hits)
 
     result_batter_hits, result_pitcher_hits = [], []
 
