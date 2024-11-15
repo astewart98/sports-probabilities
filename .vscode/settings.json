@@ -6,5 +6,6 @@
         "./Backend/Names/MLB/Opp_Finder",
         "./Backend/Scraped_Data/NFL/_URLgenerator",
         "./Backend/Names/NFL/Opp_Finder"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

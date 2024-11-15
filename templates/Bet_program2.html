@@ -21,10 +21,12 @@
                     <div class="radio-wrapper">
                         <div class="radio-container" style="gap: 40px;">
                             <div class="radio-wrapper">
+                                <!-- Remove 'disabled' next MLB season, add to NFL -->
                                 <input type="radio" id="league_mlb" name="league" value="MLB" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();" disabled>
                                 <label for="league_mlb" class="radio-label-mlb">
                                     <img src="https://res.cloudinary.com/jerrick/image/upload/v1646976165/622adca5feade9001f02da72.png" alt="MLB Logo" style="width: 165px; height: auto; clip-path: inset(0px 25px 0px 25px); margin-left: -25px; margin-right: -25px;">
                                 </label>
+                                <!-- Remove tooltip next MLB season, add to NFL -->
                                 <span class="tooltip">MLB season is over. Please choose a different league</span>
                             </div>
                             <input type="radio" id="league_nfl" name="league" value="NFL" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();">
@@ -59,13 +61,16 @@
                                     <input type="radio" id="position_nfl_team" name="position" value="Team">
                                     <label for="position_nfl_team" class="radio-label">Team</label>
                                 </div>
+                                <div class="tooltip">Need help? Try QB!</div>
                             </div>
                         </div><br><br>
-                    
-                        <label for="playername">Player/Team Name:</label><br>
-                        <input list="player-suggestions" id="playername" name="playername" required>
-                        <datalist id="player-suggestions">
-                        </datalist>
+                        <div class="player-selection">
+                            <label for="playername">Player/Team Name:</label><br>
+                            <input list="player-suggestions" id="playername" name="playername" required>
+                            <datalist id="player-suggestions">
+                            </datalist>
+                            <div class="tooltip">Need help? Try 'Jared Goff'!</div>
+                        </div>
 
                         <div class="radio-wrapper" required>
                             <div class="radio-container">
@@ -78,8 +83,11 @@
                             <div class="radio-container" required>
                                 <input type="radio" id="year1" name="year" value="2024" required>
                                 <label for="year1" class="radio-label">2024</label>
-                                <input type="radio" id="year2" name="year" value="2025" required>
+                                <!-- Remove 'disabled' next year, add to 2026 -->
+                                <input type="radio" id="year2" name="year" value="2025" required disabled>
                                 <label for="year2" class="radio-label">2025</label>
+                                <!-- Change tooltip to '2026' -->
+                                <span class="tooltip">2025 Coming Soon</span>
                             </div>
                         </div>
                     
