@@ -27,7 +27,7 @@
                                     <img src="https://res.cloudinary.com/jerrick/image/upload/v1646976165/622adca5feade9001f02da72.png" alt="MLB Logo" style="width: 165px; height: auto; clip-path: inset(0px 25px 0px 25px); margin-left: -25px; margin-right: -25px;">
                                 </label>
                                 <!-- Remove tooltip next MLB season, add to NFL -->
-                                <span class="tooltip">MLB season is over. Please choose a different league</span>
+                                <span class="tooltip"><span style="font-weight: 600;">MLB season is over</span><br>Please choose a<br>different league</span>
                             </div>
                             <input type="radio" id="league_nfl" name="league" value="NFL" onchange="updateAdvancedSearch(); updatePosition(); updateContentVisibility();">
                             <label for="league_nfl" class="radio-label-nfl">
@@ -60,7 +60,14 @@
                                     <label for="position_te" class="radio-label">TE</label>
                                     <input type="radio" id="position_nfl_team" name="position" value="Team">
                                     <label for="position_nfl_team" class="radio-label">Team</label>
-                                    <div class="tooltip">Need help? Try QB!</div>
+                                    <div class="tooltip">
+                                        <span style="font-weight: bold;">
+                                            Are you an Employer?
+                                        </span>
+                                        <span style="font-style: italic;"
+                                            > Autofill form <a href="#" onclick="autofill()">here</a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div><br><br>
@@ -69,7 +76,6 @@
                             <input list="player-suggestions" id="playername" name="playername" required>
                             <datalist id="player-suggestions">
                             </datalist>
-                            <div class="tooltip">Need help? Try 'Jared Goff'!</div>
                         </div>
 
                         <div class="radio-wrapper" required>
@@ -87,7 +93,7 @@
                                 <input type="radio" id="year2" name="year" value="2025" required disabled>
                                 <label for="year2" class="radio-label">2025</label>
                                 <!-- Change tooltip to '2026' -->
-                                <span class="tooltip">2025 Coming Soon</span>
+                                <span class="tooltip" style="font-weight: 600;">2025 Coming Soon</span>
                             </div>
                         </div>
                     
@@ -410,6 +416,15 @@
         });
         
         window.addEventListener('load', toggleSubmitButton);
+
+        function autofill() {
+            document.getElementById('position_qb').checked = true;
+            document.getElementById('playername').value = "Jared Goff";
+            document.getElementById('oddtype1').checked = true;
+            document.getElementById('year1').checked = true;
+
+            toggleSubmitButton();
+        }
 
     </script>
            

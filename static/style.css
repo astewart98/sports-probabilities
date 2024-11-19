@@ -15,7 +15,7 @@ body, html {
     overflow: auto;
     transition: max-height 1s ease-out;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 26px;
 }
 
 .selection-container.expanded {
@@ -102,7 +102,7 @@ body, html {
 
 .tooltip {
     visibility: hidden;
-    width: 220px;
+    width: 150px;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -111,10 +111,11 @@ body, html {
     position: absolute;
     z-index: 1000;
     bottom: 90%;
-    left: 50%;
+    left: 80%;
     margin-left: -40px;
-    opacity: 0;
+    opacity: 90%;
     transition: opacity 0.3s ease;
+    font-size: 12px;
 }
 
 .selection-container .tooltip {
@@ -124,32 +125,27 @@ body, html {
 }
 
 #nfl-position .tooltip {
-    bottom: 225%;
+    bottom: 240%;
+    visibility: visible !important;
+    width: 90% !important;
 }
 
-.player-selection .tooltip {
-    bottom: 95%;
+.tooltip a {
+    color: white;
+    text-decoration: underline;
 }
 
-#nfl-position:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
+.tooltip a:hover {
+    color: #007BFF;
 }
 
 .radio-label-mlb:hover + .tooltip {
     visibility: visible;
-    opacity: 1;
-}
-
-.player-selection:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
 }
 
 input#year2:hover + label + .tooltip,
 label[for="year2"]:hover + .tooltip {
     visibility: visible;
-    opacity: 1;
 }
 
 .player-selection {
@@ -441,6 +437,7 @@ button[type="submit"].disabled {
     gap: 50px;
     margin-top: 10px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .radio-container {
