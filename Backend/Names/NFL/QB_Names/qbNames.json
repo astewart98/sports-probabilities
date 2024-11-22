@@ -81,7 +81,7 @@
     },
     {
         "player_name": "Daniel Jones",
-        "player_team": "NYG"
+        "player_team": "FA"
     },
     {
         "player_name": "Caleb Williams",
@@ -116,6 +116,10 @@
         "player_team": "MIA"
     },
     {
+        "player_name": "Jameis Winston",
+        "player_team": "CLE"
+    },
+    {
         "player_name": "Will Levis",
         "player_team": "TEN"
     },
@@ -124,16 +128,12 @@
         "player_team": "CLE"
     },
     {
-        "player_name": "Joe Flacco",
-        "player_team": "IND"
-    },
-    {
-        "player_name": "Jameis Winston",
-        "player_team": "CLE"
-    },
-    {
         "player_name": "Russell Wilson",
         "player_team": "PIT"
+    },
+    {
+        "player_name": "Joe Flacco",
+        "player_team": "IND"
     },
     {
         "player_name": "Andy Dalton",
@@ -189,7 +189,7 @@
     },
     {
         "player_name": "Tim Boyle",
-        "player_team": "FA"
+        "player_team": "NYG"
     },
     {
         "player_name": "Tyrod Taylor",
@@ -308,6 +308,10 @@
         "player_team": "IND"
     },
     {
+        "player_name": "John Rhys Plumlee",
+        "player_team": "SEA"
+    },
+    {
         "player_name": "Tommy DeVito",
         "player_team": "NYG"
     },
@@ -406,6 +410,10 @@
     {
         "player_name": "Easton Stick",
         "player_team": "LAC"
+    },
+    {
+        "player_name": "Alex McGough",
+        "player_team": "GB"
     },
     {
         "player_name": "Brett Rypien",
